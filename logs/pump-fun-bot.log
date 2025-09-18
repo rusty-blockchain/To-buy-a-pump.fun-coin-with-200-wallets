@@ -1,0 +1,925 @@
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:10.124"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:10.128"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:10.128"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:10.130"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:10.130"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.407"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.409"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.410"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.412"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.414"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.416"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.417"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.417"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.418"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:12.420"}
+{"level":"info","message":"Average network latency: 274ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.345"}
+{"level":"info","message":"Current slot: 408518963","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.619"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.619"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.619"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.619"}
+{"level":"info","message":"Block monitor initialized at slot 408518964","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.901"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.902"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.902"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.902"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.903"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.903"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.905"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.905"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:14.905"}
+{"level":"info","message":"Target slot: 408518965","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:15.214"}
+{"level":"info","message":"Execution time: 2025-09-17T20:16:15.619Z","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:15.216"}
+{"level":"info","message":"Time until execution: 405ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:15.217"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T20:16:15.619Z","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:15.218"}
+{"level":"info","message":"Executing 5 transactions simultaneously...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:15.219"}
+{"level":"info","message":"Waiting for next slot edge: 408518966","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:15.493"}
+{"level":"info","message":"Waiting for slot 408518966...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:15.495"}
+{"level":"info","message":"Transaction 1 sent: 382ktxivMDjhMxHZfQoarAAs8izUgVBqguaoeCjDYXjVZTszWTevZA2QjWyBh6hejSm34KmehTM4hD1KQatBvakV","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:16.682"}
+{"level":"info","message":"Transaction 2 sent: 3vUbKkfR9PKMQsdgfdiJf9NEnfrL7ACjzzo25PK4E6KuKMD1gKHhH8Q8yXgkYaQN9w3ehmaqd7ddGTqfXhxpTAG5","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.475"}
+{"level":"info","message":"Transaction 4 sent: 58WsS6pYEP5AuAfkRYvbA8ADgNe8y97okGmRxn7pxF8gaHRHAovFoE3T17xsXVmWSZSydXmLEYCfWzdKCVpa5pSz","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.484"}
+{"level":"info","message":"Transaction 3 sent: 2CePK26cySmjhcStoZ7EGw9iXaC3pLKBJtyE3GF4yLJ9F6GJacL6EWn8xe1tSp4uNapdXNgJcEWL2n79kpC5MTuJ","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.489"}
+{"level":"info","message":"Transaction 5 sent: 4HgDueQvhY1DoA84qQtVVBrxuBvSTtyhYPKcTReWLNwfkvxyBHiZq93KXyMToZzk6bYz39XNcA2oSUPJiHBvH26o","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.825"}
+{"executionTime":2605,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.825","walletCount":5}
+{"level":"info","message":"Execution completed: 5/5 successful","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.825"}
+{"level":"info","message":"Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.826"}
+{"level":"info","message":"Execution time: 2605ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.826"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:17.826"}
+{"blockHeight":408518977,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-17 23:16:21.199","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:21.199"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:21.199"}
+{"level":"info","message":"- Block height: 408518977","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:21.199"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:21.200"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-17 23:16:21.200"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:40.616"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:40.620"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:40.621"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:40.622"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:40.622"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.631"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.631"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.632"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.632"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.632"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.633"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.633"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.633"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.634"}
+{"level":"info","message":"Creating connection pool with 10 connections...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.634"}
+{"level":"info","message":"Connection pool created with 10 connections","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.635"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:43.635"}
+{"level":"info","message":"Average network latency: 286ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:45.615"}
+{"level":"info","message":"Current slot: 408524233","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:45.915"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:45.918"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:45.919"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:45.921"}
+{"level":"info","message":"Block monitor initialized at slot 408524234","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.195"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.196"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.196"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.197"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.198"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.198"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.200"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.201"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.201"}
+{"level":"info","message":"Target slot: 408524236","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.471"}
+{"level":"info","message":"Execution time: 2025-09-17T20:49:46.871Z","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.471"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.472"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T20:49:46.871Z","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.472"}
+{"level":"info","message":"Executing 5 transactions simultaneously...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.472"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.473"}
+{"level":"info","message":"Waiting for slot 408524236 edge...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.859"}
+{"level":"info","message":"Waiting for slot 408524236 edge...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:46.859"}
+{"level":"info","message":"Got fresh blockhash: 3uB4BLHVauPqYu6og8ybqfkoVvR8GosicfbthjMUiFR5","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:47.486"}
+{"level":"info","message":"Firing all transactions simultaneously...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:47.549"}
+{"level":"info","message":"Transaction 1 sent in 276.67ms: 2n2HaJrkEkLVMinFtHtcdPapTvXBFCiUVB7YpL9a1ENHL9qkfdzyUkAcuNJuFGEmhYrHsCqftR3SCemS5L6bcuQG","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:47.826"}
+{"level":"info","message":"Transaction 3 sent in 1078.28ms: 3t9T3coa1D2apHZ8bRSuadeLp75ncKDFpjifCNbBx1npDQuM6PvVcwtdXktfQjfKGNiZAnANg131tfh44UNtbkK9","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.628"}
+{"level":"info","message":"Transaction 4 sent in 1091.41ms: 4gKxJkqw6V4YHXsFwk8Bjhjzw3cmdQtfz2tWVqZ84v8KjTQsN93pzgSou5JLjB7zqxY5ugJVcHqXr7idX8ZfG7js","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.641"}
+{"level":"info","message":"Transaction 5 sent in 1108.27ms: g2JcfUYQufG6fTkKxqKwSfZxMDjXPJ4Zh2KDHgDrPcaLqgiGcocN8uF78TbAHSoVhGa5vXXzgAL8pJVMKXhb1m4","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.658"}
+{"level":"info","message":"Transaction 2 sent in 1121.51ms: 4qfBxLqHJwUZqouYdi9b19nheqJc1QMbWimWDHqJSRpzgkvk7c6RrYCfDCSv9HraJJyjrLUMYsn6acX1i3A7xWV5","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.671"}
+{"executionTime":2199.9813999999997,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.675","walletCount":5}
+{"level":"info","message":"Execution completed: 5/5 successful","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.677"}
+{"level":"info","message":"Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.678"}
+{"level":"info","message":"Total execution time: 2199.98ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.679"}
+{"level":"info","message":"Average send time: 935.23ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.681"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:48.684"}
+{"blockHeight":408524247,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-17 23:49:52.612","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:52.612"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:52.613"}
+{"level":"info","message":"- Block height: 408524247","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:52.613"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:52.613"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-17 23:49:52.613"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-17 23:50:32.768"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:04.430"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:13.894"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:13.898"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:13.898"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:13.899"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:13.900"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.651"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.653"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.654"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.656"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.659"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.661"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.662"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.663"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.664"}
+{"level":"info","message":"Creating connection pool with 10 connections...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.665"}
+{"level":"info","message":"Connection pool created with 10 connections","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.669"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:16.671"}
+{"level":"info","message":"Average network latency: 513ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:19.766"}
+{"level":"info","message":"Current slot: 408524476","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.085"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.085"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.086"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.086"}
+{"level":"info","message":"Block monitor initialized at slot 408524477","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.364"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.364"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.365"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.365"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.366"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.366"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.368"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.368"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.368"}
+{"level":"info","message":"Target slot: 408524478","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.632"}
+{"level":"info","message":"Execution time: 2025-09-17T20:51:21.032Z","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.632"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.632"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T20:51:21.032Z","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.633"}
+{"level":"info","message":"Executing 5 transactions simultaneously...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.633"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:20.633"}
+{"level":"info","message":"Waiting for slot 408524480 edge...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:21.023"}
+{"level":"info","message":"Waiting for slot 408524480 edge...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:21.024"}
+{"level":"info","message":"Got fresh blockhash: 4GLwZw2dB1eVKN8yTEBVe3eVtv8GV1ciqC76U8i12mzQ","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:21.685"}
+{"level":"info","message":"Firing all transactions simultaneously...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:21.731"}
+{"level":"info","message":"Transaction 1 sent in 294.78ms: 4bQP8Cx7RRgGFRhgutWeayy981F8TQjsrVu1nzZxFqMCFxoP2QU5nnxWxA7SQ5hxtGYEYDCVjZkhQJwDGr6ofqGr","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.026"}
+{"level":"info","message":"Transaction 4 sent in 1084.12ms: 5qix7nn6J9aLkY8qJ26u38CvL9MgVRY71PrN4xj6QkP528qnpDHZEYZSzsTFBMYJtqtaBFVumQVYiJGtUCrngeXy","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.815"}
+{"level":"info","message":"Transaction 3 sent in 1093.30ms: 3ei8z7nw3M3gbaLXRjGAmaSnNQ5qgLrY8PPtGW52kifMiJUTAbFaBWz59YGdLz7Qb3gy9RYTZU4qLyNEWys2R3my","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.824"}
+{"level":"info","message":"Transaction 2 sent in 1098.16ms: 4NapzyecmvFWmZXWSygT52Ee15v8No8hC8SnyddzX94c1eUVEAWzWyaRBXMFVbj8AuHyKdgAKdvucXXgguXmVxJQ","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.829"}
+{"level":"info","message":"Transaction 5 sent in 1107.79ms: 3RFGBgsCcb2zTL6P37V5XcWKjkSGAsRBwaP46P3GLLWvtrHEPPvvZDdZYcYCus9tPxnvkoUbvw9XfRWK9Uq32DBC","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.839"}
+{"executionTime":2205.6857999999993,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.839","walletCount":5}
+{"level":"info","message":"Execution completed: 5/5 successful","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.840"}
+{"level":"info","message":"Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.840"}
+{"level":"info","message":"Total execution time: 2205.69ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.840"}
+{"level":"info","message":"Average send time: 935.63ms","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.841"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:22.841"}
+{"blockHeight":408524489,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-17 23:51:26.536","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:26.537"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:26.537"}
+{"level":"info","message":"- Block height: 408524489","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:26.537"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:26.538"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-17 23:51:26.538"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:15.948"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:15.957"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:15.958"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:15.960"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:15.960"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.232"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.232"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.233"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.233"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.234"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.235"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.235"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.235"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.235"}
+{"level":"info","message":"Creating connection pool with 20 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.236"}
+{"level":"info","message":"Connection pool created with 20 connections using 4 RPC providers","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.238"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:20.238"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:18:21.606"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:10.818"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:10.821"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:10.822"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:10.823"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:10.824"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.671"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.673"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.674"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.676"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.678"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.680"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.681"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.682"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.683"}
+{"level":"info","message":"Creating connection pool with 20 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.684"}
+{"level":"info","message":"Connection pool created with 20 connections using 4 RPC providers","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.691"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:14.692"}
+{"level":"info","message":"Average network latency: 352ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:16.988"}
+{"level":"info","message":"Current slot: 408529617","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.265"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.266"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.267"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.268"}
+{"level":"info","message":"Block monitor initialized at slot 408529618","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.547"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.548"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.549"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.552"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.553"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.554"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.568"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.569"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.570"}
+{"level":"info","message":"Target slot: 408529620","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.846"}
+{"level":"info","message":"Execution time: 2025-09-17T21:24:18.246Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.846"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.847"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:24:18.246Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.847"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.848"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:17.848"}
+{"level":"info","message":"ULTRA-FAST: Sending on slots 408529621 and 408529622...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:18.235"}
+{"level":"info","message":"🚀 SLOT 1 BURST: Waiting for slot 408529621...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:18.236"}
+{"level":"info","message":"Waiting for slot 408529621 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:18.236"}
+{"level":"info","message":"Got blockhash for slot 1: EsKV7LBFKWLKhgHwxrorBCYtuBj3Pn888ZT7WcM1WCwA","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:20.887"}
+{"level":"info","message":"🔥 FIRING SLOT 1 TRANSACTIONS...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:20.974"}
+{"level":"info","message":"🚀 SLOT 2 BURST: Waiting for slot 408529622...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:20.977"}
+{"level":"info","message":"Waiting for slot 408529622 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:20.978"}
+{"level":"error","message":"SLOT1-2 failed in 731.95ms: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}","service":"pump-fun-bot","stack":"Error: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:24:21.808"}
+{"level":"info","message":"SLOT1-1 sent in 837.51ms: 5Rdzu275wgQcxGfT2yxD4bKi1J3cWimNvjUJnDaztc1GEBhjHrBFVGfceNUAkQa7aKxyVWqPPf2UefYyZb68Ki7E","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:21.812"}
+{"level":"info","message":"Got blockhash for slot 2: shLCNoWPN75WYMK4TwXSArTvmdyXEavKVGd5HMX8UDy","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:22.343"}
+{"level":"info","message":"🔥 FIRING SLOT 2 TRANSACTIONS...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:22.414"}
+{"level":"info","message":"⏳ Waiting for all transactions to complete...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:22.415"}
+{"level":"info","message":"SLOT1-5 sent in 1445.79ms: 4jV7akFZuwbK3GUsEM1gs9nnNtckJfRUNuKFE8EtHXxMVsTpkcJ4WPjyAYNtYp9zVqXgnnXgQwefHsJjneCHjX3f","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:22.420"}
+{"level":"error","message":"SLOT2-2 failed in 167.28ms: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}","service":"pump-fun-bot","stack":"Error: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:24:22.582"}
+{"level":"info","message":"SLOT2-5 sent in 268.93ms: 3EQvXpPCkwdU7sfcNSBMVQYbk48Zvn7wxBrjhF1J25Tvnhmu125McWwkJy5xBNsUhckDBMsJrQrqhvMZyJHgKjWB","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:22.682"}
+{"level":"info","message":"SLOT2-1 sent in 325.05ms: 4bTmaDUwVGZjpXRCghdwcjLymCfU4z3SJQoczjUPwzGuH2wAEUaPDDWwCSMXbzSsJ9iDNTchHZhw6vgG3rxpSmBV","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:22.739"}
+{"branch":[{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}],"level":"error","message":"SLOT1-3 failed in 2110.94ms: Expected the value to satisfy a union of `type | type`, but received: [object Object]","name":"StructError","path":[],"service":"pump-fun-bot","stack":"StructError: Expected the value to satisfy a union of `type | type`, but received: [object Object]\n    at validate (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:198:19)\n    at Object.create (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:144:18)\n    at Connection.sendEncodedTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6046:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6009:20)\n    at async Promise.all (index 2)\n    at async Promise.all (index 0)\n    at async SynchronizationEngine.executeSimultaneously (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\core\\SynchronizationEngine.ts:305:44)\n    at async PumpFunMultiWalletBot.execute (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\index.ts:96:23)\n    at async SmallBatchTest.runTest (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\test\\small-batch-test.ts:53:7)","timestamp":"2025-09-18 00:24:23.119","type":"union","value":{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}}
+{"branch":[{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}],"level":"error","message":"SLOT2-3 failed in 1050.62ms: Expected the value to satisfy a union of `type | type`, but received: [object Object]","name":"StructError","path":[],"service":"pump-fun-bot","stack":"StructError: Expected the value to satisfy a union of `type | type`, but received: [object Object]\n    at validate (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:198:19)\n    at Object.create (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:144:18)\n    at Connection.sendEncodedTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6046:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6009:20)\n    at async Promise.all (index 2)\n    at async Promise.all (index 1)\n    at async SynchronizationEngine.executeSimultaneously (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\core\\SynchronizationEngine.ts:305:44)\n    at async PumpFunMultiWalletBot.execute (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\index.ts:96:23)\n    at async SmallBatchTest.runTest (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\test\\small-batch-test.ts:53:7)","timestamp":"2025-09-18 00:24:23.464","type":"union","value":{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}}
+{"level":"error","message":"SLOT1-4 failed in 9113.44ms: 429 Too Many Requests: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Access denied | solana-devnet.g.alchemy.com used Cloudflare to restrict access</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1015,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1015</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 980babf4dc63de5f &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2025-09-17 21:24:39 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">You are being rate limited</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>The owner of this website (solana-devnet.g.alchemy.com) has banned you temporarily from accessing this website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/</a> for more details.</p>\n            \n          </div>\n\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">980babf4dc63de5f</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">83.234.227.25</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n","service":"pump-fun-bot","stack":"Error: 429 Too Many Requests: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Access denied | solana-devnet.g.alchemy.com used Cloudflare to restrict access</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1015,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1015</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 980babf4dc63de5f &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2025-09-17 21:24:39 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">You are being rate limited</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>The owner of this website (solana-devnet.g.alchemy.com) has banned you temporarily from accessing this website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/</a> for more details.</p>\n            \n          </div>\n\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">980babf4dc63de5f</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">83.234.227.25</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:24:30.088"}
+{"level":"error","message":"SLOT2-4 failed in 9251.28ms: 429 Too Many Requests: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Access denied | solana-devnet.g.alchemy.com used Cloudflare to restrict access</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1015,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1015</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 980babfece01de5f &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2025-09-17 21:24:41 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">You are being rate limited</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>The owner of this website (solana-devnet.g.alchemy.com) has banned you temporarily from accessing this website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/</a> for more details.</p>\n            \n          </div>\n\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">980babfece01de5f</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">83.234.227.25</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n","service":"pump-fun-bot","stack":"Error: 429 Too Many Requests: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Access denied | solana-devnet.g.alchemy.com used Cloudflare to restrict access</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1015,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1015</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 980babfece01de5f &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2025-09-17 21:24:41 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">You are being rate limited</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>The owner of this website (solana-devnet.g.alchemy.com) has banned you temporarily from accessing this website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/</a> for more details.</p>\n            \n          </div>\n\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">980babfece01de5f</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">83.234.227.25</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:24:31.665"}
+{"executionTime":13820.0842,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:24:31.668","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:31.669"}
+{"level":"info","message":"✅ Successful transactions: 2/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:31.669"}
+{"level":"info","message":"📊 Success rate: 40.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:31.669"}
+{"level":"info","message":"⏱️ Total execution time: 13820.08ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:31.670"}
+{"level":"info","message":"🚀 Average send time: 2530.28ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:31.670"}
+{"level":"info","message":"🎲 Sent on 408529621 and 408529622 for maximum inclusion!","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:31.670"}
+{"level":"info","message":"Verifying block inclusion for 2 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:31.670"}
+{"blockHeight":408529663,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:24:36.179","txCount":2}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:36.180"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:36.180"}
+{"level":"info","message":"- Block height: 408529663","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:36.181"}
+{"level":"info","message":"- Confirmed transactions: 2/2","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:36.181"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:24:36.181"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:32.164"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:39.745"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:39.748"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:39.748"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:39.750"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:39.750"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.939"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.940"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.940"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.941"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.942"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.942"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.943"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.943"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.943"}
+{"level":"info","message":"Creating connection pool with 20 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.944"}
+{"level":"info","message":"Connection pool created with 20 connections using 4 RPC providers","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.945"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:44.945"}
+{"level":"info","message":"Average network latency: 275ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:46.865"}
+{"level":"info","message":"Current slot: 408530636","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.146"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.147"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.148"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.149"}
+{"level":"info","message":"Block monitor initialized at slot 408530636","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.426"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.427"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.427"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.428"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.428"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.429"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.430"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.431"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.431"}
+{"level":"info","message":"Target slot: 408530638","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.707"}
+{"level":"info","message":"Execution time: 2025-09-17T21:30:48.107Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.708"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.708"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:30:48.107Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.708"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.709"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:47.709"}
+{"level":"info","message":"ULTRA-FAST: Sending on slots 408530639 and 408530640...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:48.093"}
+{"level":"info","message":"🚀 SLOT 1 BURST: Waiting for slot 408530639...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:48.095"}
+{"level":"info","message":"Waiting for slot 408530639 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:48.097"}
+{"level":"info","message":"Got blockhash for slot 1: 3xvBqQRYupFwnbWQrzoiwKJEwEid8oRPhkzD43TKrGus","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:48.519"}
+{"level":"info","message":"🔥 FIRING SLOT 1 TRANSACTIONS...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:48.596"}
+{"level":"info","message":"🚀 SLOT 2 BURST: Waiting for slot 408530640...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:48.598"}
+{"level":"info","message":"Waiting for slot 408530640 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:48.598"}
+{"level":"info","message":"SLOT1-1 sent in 278.89ms: 3TE3kSQjp56eidkehWGQ1kiNqEQqnPxjWWVoh7i4eTbxTgt8ghmpjcX4CaUvxq2EKd9aawhpDmTP8XJ95jcUBhWo","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:48.875"}
+{"level":"error","message":"SLOT1-2 failed in 719.46ms: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}","service":"pump-fun-bot","stack":"Error: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:30:49.356"}
+{"branch":[{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}],"level":"error","message":"SLOT1-3 failed in 1137.43ms: Expected the value to satisfy a union of `type | type`, but received: [object Object]","name":"StructError","path":[],"service":"pump-fun-bot","stack":"StructError: Expected the value to satisfy a union of `type | type`, but received: [object Object]\n    at validate (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:198:19)\n    at Object.create (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:144:18)\n    at Connection.sendEncodedTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6046:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6009:20)","timestamp":"2025-09-18 00:30:49.735","type":"union","value":{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}}
+{"level":"info","message":"Got blockhash for slot 2: Ax4vED3MBMepBNdPbydSkwfGdeA1GTeY3YnBD3n84c55","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:49.908"}
+{"level":"info","message":"🔥 FIRING SLOT 2 TRANSACTIONS...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:49.992"}
+{"level":"info","message":"⏳ Waiting for all transactions to complete...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:49.994"}
+{"level":"info","message":"SLOT1-5 sent in 1402.85ms: 3N2foeP5obWAUJbSrmNFtESBcRzuXLwnjTPaXJcDwWGa61qr7cYg6NNtdn145xn25mvDFagTjeWsjzRpgsUfcDou","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:49.999"}
+{"level":"error","message":"SLOT2-2 failed in 169.17ms: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}","service":"pump-fun-bot","stack":"Error: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:30:50.162"}
+{"level":"info","message":"SLOT2-1 sent in 280.89ms: 3puXEuS4z7maV7gysKkpvjZpFRRtmnnnxLekiW3W8oGcdYMBFtdH7e89vCMi18rBKH7nz2X4ArGQfmD4D29CrWLE","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:50.273"}
+{"branch":[{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}],"level":"error","message":"SLOT2-3 failed in 352.43ms: Expected the value to satisfy a union of `type | type`, but received: [object Object]","name":"StructError","path":[],"service":"pump-fun-bot","stack":"StructError: Expected the value to satisfy a union of `type | type`, but received: [object Object]\n    at validate (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:198:19)\n    at Object.create (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:144:18)\n    at Connection.sendEncodedTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6046:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6009:20)\n    at async Promise.all (index 2)\n    at async Promise.all (index 1)\n    at async SynchronizationEngine.executeSimultaneously (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\core\\SynchronizationEngine.ts:305:44)\n    at async PumpFunMultiWalletBot.execute (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\index.ts:96:23)\n    at async SmallBatchTest.runTest (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\test\\small-batch-test.ts:53:7)","timestamp":"2025-09-18 00:30:50.355","type":"union","value":{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}}
+{"level":"info","message":"SLOT2-5 sent in 877.60ms: 5L7gbzwrYtpoZ26ASuoYUeAqVgHRC5KLfD8wkxGZNwx3cjYDrXs5q61e1zR5kdzUqYCFo8BNPDN3hHGD6aZJVwrc","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:50.870"}
+{"level":"info","message":"SLOT1-4 sent in 2752.79ms: 4d3ahbiskDp6JaU9AkC8YcfYv2ZrvprCfktigTHajrjxHBNbj4QzVmYUyLaGiZn7mn5AqHgJeVc9mM4Qsid82XR8","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:51.348"}
+{"level":"error","message":"SLOT2-4 failed in 8553.33ms: 429 Too Many Requests: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Access denied | solana-devnet.g.alchemy.com used Cloudflare to restrict access</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1015,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1015</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 980bb570bcf07dde &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2025-09-17 21:31:08 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">You are being rate limited</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>The owner of this website (solana-devnet.g.alchemy.com) has banned you temporarily from accessing this website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/</a> for more details.</p>\n            \n          </div>\n\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">980bb570bcf07dde</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">83.234.227.25</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n","service":"pump-fun-bot","stack":"Error: 429 Too Many Requests: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Access denied | solana-devnet.g.alchemy.com used Cloudflare to restrict access</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1015,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1015</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 980bb570bcf07dde &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2025-09-17 21:31:08 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">You are being rate limited</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>The owner of this website (solana-devnet.g.alchemy.com) has banned you temporarily from accessing this website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/</a> for more details.</p>\n            \n          </div>\n\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">980bb570bcf07dde</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">83.234.227.25</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:30:58.546"}
+{"executionTime":10844.044199999998,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:30:58.554","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:58.555"}
+{"level":"info","message":"✅ Successful transactions: 3/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:58.556"}
+{"level":"info","message":"📊 Success rate: 60.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:58.557"}
+{"level":"info","message":"⏱️ Total execution time: 10844.04ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:58.558"}
+{"level":"info","message":"🚀 Average send time: 1652.48ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:58.559"}
+{"level":"info","message":"🎲 Sent on 408530639 and 408530640 for maximum inclusion!","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:58.560"}
+{"level":"info","message":"Verifying block inclusion for 3 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:30:58.562"}
+{"blockHeight":408530674,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:31:03.162","txCount":3}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:31:03.162"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:31:03.163"}
+{"level":"info","message":"- Block height: 408530674","service":"pump-fun-bot","timestamp":"2025-09-18 00:31:03.163"}
+{"level":"info","message":"- Confirmed transactions: 3/3","service":"pump-fun-bot","timestamp":"2025-09-18 00:31:03.163"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:31:03.163"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:07.397"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:32.329"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:32.332"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:32.333"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:32.334"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:32.334"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.577"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.578"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.579"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.579"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.580"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.580"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.580"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.581"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.581"}
+{"level":"info","message":"Creating connection pool with 5 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.581"}
+{"level":"info","message":"Connection pool created with 5 connections using 3 RPC providers","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.582"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:34.583"}
+{"level":"info","message":"Average network latency: 273ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:36.488"}
+{"level":"info","message":"Current slot: 408532658","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:36.785"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:36.786"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:36.786"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:36.787"}
+{"level":"info","message":"Block monitor initialized at slot 408532658","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.054"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.054"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.054"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.055"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.055"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.056"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.057"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.058"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.058"}
+{"level":"info","message":"Target slot: 408532660","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.324"}
+{"level":"info","message":"Execution time: 2025-09-17T21:43:37.724Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.324"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.325"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:43:37.724Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.325"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.325"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.326"}
+{"level":"info","message":"🎯 ULTRA-FAST: Targeting single slot 408532661 with maximum precision...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.705"}
+{"level":"info","message":"⏰ Waiting for slot 408532661 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.707"}
+{"level":"info","message":"Waiting for slot 408532661 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:37.708"}
+{"level":"info","message":"🎯 Got fresh blockhash: FgSozKp2S143rRM96kEb8CvY2yzcsYHhFwJoCA1Yyh8o","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:39.250"}
+{"level":"info","message":"🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:39.397"}
+{"level":"info","message":"⚡ TX-1 sent in 277.20ms: 3j7G5SYByBR5afR9cKwmTdxu8wQKPQFcvBEw8VabHSxZH6ncmwiJi1xenbKwbPKKCzkDZurTxX29QtveiDcj5k6t","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:39.674"}
+{"level":"error","message":"❌ TX-2 failed in 695.45ms: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}","service":"pump-fun-bot","stack":"Error: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:43:40.158"}
+{"level":"error","message":"❌ TX-5 failed in 763.77ms: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}","service":"pump-fun-bot","stack":"Error: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:43:40.161"}
+{"branch":[{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}],"level":"error","message":"❌ TX-3 failed in 1692.30ms: Expected the value to satisfy a union of `type | type`, but received: [object Object]","name":"StructError","path":[],"service":"pump-fun-bot","stack":"StructError: Expected the value to satisfy a union of `type | type`, but received: [object Object]\n    at validate (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:198:19)\n    at Object.create (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:144:18)\n    at Connection.sendEncodedTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6046:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6009:20)\n    at async Promise.all (index 2)\n    at async SynchronizationEngine.executeSimultaneously (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\core\\SynchronizationEngine.ts:245:23)\n    at async PumpFunMultiWalletBot.execute (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\index.ts:96:23)\n    at async SmallBatchTest.runTest (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\test\\small-batch-test.ts:53:7)\n    at async main (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\test\\small-batch-test.ts:187:7)","timestamp":"2025-09-18 00:43:41.112","type":"union","value":{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}}
+{"level":"info","message":"⚡ TX-4 sent in 2385.84ms: 2t42y3stFmyq9iBbjq9rp4Hf3gQXQ2bbv4ArngK28tMN1p18QsJrLFgGPSdP8KZjwXR6mhHNDVUCjmZ14UVzfcuR","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.782"}
+{"executionTime":4457.0652,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.783","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.784"}
+{"level":"info","message":"✅ Successful transactions: 2/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.784"}
+{"level":"info","message":"📊 Success rate: 40.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.784"}
+{"level":"info","message":"⏱️ Total execution time: 4457.07ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.784"}
+{"level":"info","message":"🚀 Average send time: 1162.91ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.785"}
+{"level":"info","message":"🎲 Sent on slot 408532661 with maximum precision!","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.785"}
+{"level":"info","message":"Verifying block inclusion for 2 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:41.785"}
+{"blockHeight":408532679,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:43:45.841","txCount":2}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:45.842"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:45.842"}
+{"level":"info","message":"- Block height: 408532679","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:45.843"}
+{"level":"info","message":"- Confirmed transactions: 2/2","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:45.843"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:45.843"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:43:47.351"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:43.949"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:43.955"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:43.956"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:43.957"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:43.957"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.483"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.484"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.484"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.485"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.485"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.485"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.486"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.486"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.486"}
+{"level":"info","message":"Creating connection pool with 5 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.487"}
+{"level":"info","message":"Connection pool created with 5 connections using 3 RPC providers","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.488"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:48.488"}
+{"level":"info","message":"Average network latency: 422ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.132"}
+{"level":"info","message":"Current slot: 408533168","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.546"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.547"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.547"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.547"}
+{"level":"info","message":"Block monitor initialized at slot 408533170","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.959"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.959"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.959"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.960"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.960"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.961"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.963"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.963"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:51.964"}
+{"level":"info","message":"Target slot: 408533172","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:52.379"}
+{"level":"info","message":"Execution time: 2025-09-17T21:46:52.779Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:52.381"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:52.381"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:46:52.779Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:52.382"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:52.384"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:52.385"}
+{"level":"info","message":"🎯 ULTRA-FAST: Targeting single slot 408533173 with maximum precision...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:53.003"}
+{"level":"info","message":"⏰ Waiting for slot 408533173 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:53.004"}
+{"level":"info","message":"Waiting for slot 408533173 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:53.004"}
+{"level":"info","message":"🎯 Got fresh blockhash: 4mgn5SBSiS8sqNnMqGgBWVXC4SVw4wiS4qY7AYQPHVBj","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:53.798"}
+{"level":"info","message":"🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:53.870"}
+{"level":"info","message":"⚡ TX-1 sent in 419.99ms: 66YYSeeCNPixmr1cFD1MDPZnND5rJvSPys7Cgonm7ifEypkrm9nXQtxsigocdt7HnPQEcuyxZKExgKGu4KSojmN8","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.290"}
+{"level":"error","message":"❌ TX-5 failed in 505.37ms: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}","service":"pump-fun-bot","stack":"Error: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:46:54.395"}
+{"level":"info","message":"⚡ TX-4 sent in 811.07ms: 3RRGMu2mgqfL5kueWP5n5YLQHZUqnvk4JZYhQW4f2Yb3zBjApjjK1WZtGR6oCSdVbhBkDTuwLHwmsNDqU1wuqbFT","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.682"}
+{"level":"error","message":"❌ TX-2 failed in 1001.03ms: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}","service":"pump-fun-bot","stack":"Error: 401 Unauthorized: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32401,\"message\":\"missing api key\"}}\n    at ClientBrowser.callServer (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:1703:18)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-18 00:46:54.872"}
+{"branch":[{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}],"level":"error","message":"❌ TX-3 failed in 1039.94ms: Expected the value to satisfy a union of `type | type`, but received: [object Object]","name":"StructError","path":[],"service":"pump-fun-bot","stack":"StructError: Expected the value to satisfy a union of `type | type`, but received: [object Object]\n    at validate (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:198:19)\n    at Object.create (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\superstruct\\src\\struct.ts:144:18)\n    at Connection.sendEncodedTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6046:17)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\node_modules\\@solana\\web3.js\\src\\connection.ts:6009:20)\n    at async Promise.all (index 2)\n    at async SynchronizationEngine.executeSimultaneously (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\core\\SynchronizationEngine.ts:245:23)\n    at async PumpFunMultiWalletBot.execute (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\index.ts:96:23)\n    at async SmallBatchTest.runTest (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\test\\small-batch-test.ts:53:7)\n    at async main (E:\\MyProject\\Project\\2025-9-11_discord_pumpfun(2)\\src\\test\\small-batch-test.ts:187:7)","timestamp":"2025-09-18 00:46:54.915","type":"union","value":{"error":{"code":-32000,"message":"Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free."},"id":null,"jsonrpc":"2.0"}}
+{"executionTime":2531.2155000000002,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.916","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.916"}
+{"level":"info","message":"✅ Successful transactions: 2/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.917"}
+{"level":"info","message":"📊 Success rate: 40.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.917"}
+{"level":"info","message":"⏱️ Total execution time: 2531.22ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.917"}
+{"level":"info","message":"🚀 Average send time: 755.48ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.918"}
+{"level":"info","message":"🎲 Sent on slot 408533173 with maximum precision!","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.918"}
+{"level":"info","message":"Verifying block inclusion for 2 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:46:54.919"}
+{"blockHeight":408533183,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:47:19.084","txCount":2}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:47:19.085"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:47:19.085"}
+{"level":"info","message":"- Block height: 408533183","service":"pump-fun-bot","timestamp":"2025-09-18 00:47:19.086"}
+{"level":"info","message":"- Confirmed transactions: 2/2","service":"pump-fun-bot","timestamp":"2025-09-18 00:47:19.086"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:47:19.086"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:47:23.863"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:20.875"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:20.878"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:20.879"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:20.882"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:20.883"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.627"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.629"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.629"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.630"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.632"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.633"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.634"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.634"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.635"}
+{"level":"info","message":"Creating connection pool with 3 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.636"}
+{"level":"info","message":"Connection pool created with 3 connections using main Solana devnet RPC","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.638"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:24.639"}
+{"level":"info","message":"Average network latency: 446ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:27.401"}
+{"level":"info","message":"Current slot: 408533733","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:27.833"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:27.834"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:27.834"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:27.834"}
+{"level":"info","message":"Block monitor initialized at slot 408533734","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.263"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.264"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.265"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.268"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.269"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.271"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.283"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.284"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.286"}
+{"level":"info","message":"Target slot: 408533736","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.715"}
+{"level":"info","message":"Execution time: 2025-09-17T21:50:29.115Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.718"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.719"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:50:29.115Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.720"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.725"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:28.727"}
+{"level":"info","message":"🎯 ULTRA-FAST: Targeting single slot 408533738 with maximum precision...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:29.397"}
+{"level":"info","message":"⏰ Waiting for slot 408533738 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:29.397"}
+{"level":"info","message":"Waiting for slot 408533738 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:29.398"}
+{"level":"info","message":"🎯 Got fresh blockhash: 4K93mpRMWF1YbqtqUDMj1QaDzaTLuTJBNYjn8tVLhJmD","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:30.101"}
+{"level":"info","message":"🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:30.222"}
+{"level":"info","message":"⚡ TX-1 sent in 433.53ms: 3VnidWP7v5e1WvsGZKH4Wv27hmSYCKE5bDscFWpkfbTh6dNeyR7wtWsrEkRhy3hgEPda8arANAZ4tsQMpufJqxeV","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:30.655"}
+{"level":"info","message":"⚡ TX-3 sent in 1581.46ms: DM3Ao9Qbty4eFpmsA5wXuf3mXYnHAtqk4DYqQTHixdoAzW63fSRmiAYghEpFRsTBMBrSmqAqTkihjMR21Pe2SyQ","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.803"}
+{"level":"info","message":"⚡ TX-5 sent in 1596.94ms: 2VD9fRYSwWtnBZrvCALBQhPJUQPt3X7j4fzFeQ2hvFxGmaGsjHn6rbnB9NZpZ4FBed4bELf7DPVzQGtuptMmh5SL","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.819"}
+{"level":"info","message":"⚡ TX-2 sent in 1611.54ms: Eq3q3tk81yrrjDdW9x2hrC1AQjAbFaaouDonMh9c1dHoCX8jXk88KkwGk2VYgQxsa3uPKzdkTvu5T5BofjrR6bM","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.833"}
+{"level":"info","message":"⚡ TX-4 sent in 1622.40ms: 37DbxR1mP7ymYT6x962bG4k8XsBFv22twY971K6EBhun5AxxNeRrZRaVYLbqSZDVP9eRSKm7Sbyh3WgBQdCkJVLG","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.844"}
+{"executionTime":3119.0204000000012,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.848","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.849"}
+{"level":"info","message":"✅ Successful transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.850"}
+{"level":"info","message":"📊 Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.851"}
+{"level":"info","message":"⏱️ Total execution time: 3119.02ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.853"}
+{"level":"info","message":"🚀 Average send time: 1369.17ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.854"}
+{"level":"info","message":"🎲 Sent on slot 408533738 with maximum precision!","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.856"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:31.859"}
+{"blockHeight":408533750,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:50:34.733","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:34.733"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:34.733"}
+{"level":"info","message":"- Block height: 408533750","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:34.734"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:34.734"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:34.734"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:50:48.178"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:05.472"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:05.475"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:05.476"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:05.477"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:05.477"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.061"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.061"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.061"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.062"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.062"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.063"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.063"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.063"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.063"}
+{"level":"info","message":"Creating connection pool with 3 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.064"}
+{"level":"info","message":"Connection pool created with 3 connections using main Solana devnet RPC","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.064"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:08.064"}
+{"level":"info","message":"Average network latency: 282ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.017"}
+{"level":"info","message":"Current slot: 408534002","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.297"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.298"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.298"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.298"}
+{"level":"info","message":"Block monitor initialized at slot 408534003","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.594"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.595"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.595"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.598"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.599"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.600"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.609"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.610"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.612"}
+{"level":"info","message":"Target slot: 408534004","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.906"}
+{"level":"info","message":"Execution time: 2025-09-17T21:52:11.305Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.907"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.907"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:52:11.305Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.907"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.909"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:10.909"}
+{"level":"info","message":"🎯 ULTRA-FAST: Targeting single slot 408534006 with maximum precision...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:11.332"}
+{"level":"info","message":"⏰ Waiting for slot 408534006 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:11.333"}
+{"level":"info","message":"Waiting for slot 408534006 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:11.333"}
+{"level":"info","message":"🎯 Got fresh blockhash: Hv6TWDVMpNY1oMwR6ycKt2cv93cPsubHq3fqdfKNtzpt","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:11.858"}
+{"level":"info","message":"🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:11.896"}
+{"level":"info","message":"⚡ TX-1 sent in 273.19ms: 3GDC7FRYArt8pAiVZTTefzppUtXCrkVjcV4ansP4shaNdATkhjpSZKUhCYS6pPd9Hn2ymtuXPWLzmA4pMFA5s1bd","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:12.169"}
+{"level":"info","message":"⚡ TX-2 sent in 1079.66ms: 2bCo8wDriHTRNMKYss7ETPHabAhkw3ckXkcEbV41qkt4AfBRWiXg8DBdLmMmq3qYuamUZLJ6YnrhMKgFAgSkHbn1","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:12.976"}
+{"level":"info","message":"⚡ TX-3 sent in 1101.74ms: 5v9bzDT8kZYT3BfMRqbZNvmsijtbZE1sbQt6wxozEiLuoHUPX1Mz6okfcmfmrcdq1Be4F52t4poPLypMMQchr4DR","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:12.998"}
+{"level":"info","message":"⚡ TX-5 sent in 1121.67ms: 43qxmHgYNLZEiWxB4RmQPLSE6tnW5T8J2zHfpA2JFMQoPvmx3bxCJDtwyFYwRus7JhMvuim7sNwArtjFLv7f9d93","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.018"}
+{"level":"info","message":"⚡ TX-4 sent in 1141.84ms: 2asvLLqvMQU5yiUFTpAdm1iRv1ERXo56jo277HumE4g7kUFJm2A3iBuU7UyQREnNeZyizVQ5nFZC7XoT6ZEYUyBT","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.038"}
+{"executionTime":2129.374899999999,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.039","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.040"}
+{"level":"info","message":"✅ Successful transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.040"}
+{"level":"info","message":"📊 Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.040"}
+{"level":"info","message":"⏱️ Total execution time: 2129.37ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.041"}
+{"level":"info","message":"🚀 Average send time: 943.62ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.041"}
+{"level":"info","message":"🎲 Sent on slot 408534006 with maximum precision!","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.041"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:13.042"}
+{"blockHeight":408534015,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:52:15.632","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:15.633"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:15.634"}
+{"level":"info","message":"- Block height: 408534015","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:15.634"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:15.635"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:52:15.636"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:36.021"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:36.025"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:36.026"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:36.027"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:36.028"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.743"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.745"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.747"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.749"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.753"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.754"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.755"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.757"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.758"}
+{"level":"info","message":"Creating connection pool with 3 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.759"}
+{"level":"info","message":"Connection pool created with 3 connections using main Solana devnet RPC","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.762"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:39.764"}
+{"level":"info","message":"Average network latency: 447ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:42.544"}
+{"level":"info","message":"Current slot: 408534242","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.011"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.012"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.013"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.014"}
+{"level":"info","message":"Block monitor initialized at slot 408534243","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.481"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.482"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.482"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.483"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.484"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.484"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.486"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.487"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.487"}
+{"level":"info","message":"Target slot: 408534246","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.922"}
+{"level":"info","message":"Execution time: 2025-09-17T21:53:44.322Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.922"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.923"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:53:44.322Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.923"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.923"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:43.924"}
+{"level":"info","message":"🎯 ULTRA-FAST: Targeting single slot 408534247 with maximum precision...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:44.475"}
+{"level":"info","message":"⏰ Waiting for slot 408534247 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:44.477"}
+{"level":"info","message":"Waiting for slot 408534247 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:44.478"}
+{"level":"info","message":"🎯 Got fresh blockhash: AxZo5et2A4ZznNunumUib3jX1SdDB4ez8m3RmtZy6xHa","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:45.425"}
+{"level":"info","message":"🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:45.470"}
+{"level":"info","message":"⚡ TX-1 sent in 437.02ms: 3PYXzBEPCxcuusZFPNCnTZqKgCiojhcDksu2rRAyAeauvc5VdynxQT2C8dh4aNHJHehKnpoMMwY9WToxghP2uaE6","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:45.907"}
+{"level":"info","message":"⚡ TX-4 sent in 1554.40ms: 9GRmyrJ1915bqu6ifBmkHhdXahVPEuAzMg4hgmUyRkGotzytNvtknrTWDQr2L1R5KDs4Qho9jFyhgqwfWxxBbjS","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.025"}
+{"level":"info","message":"⚡ TX-2 sent in 1575.48ms: LTWWfLSsY2R88WcduUgucGdFtQa1WGZM9SRx3jKY9hvsKjwUkh1vwFGhK4pXeaLHVj3p2KU9hnE8J88ets5WicK","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.046"}
+{"level":"info","message":"⚡ TX-5 sent in 1598.69ms: 2EhKzWfFr11WYqCjYxQKenEKhV51FfUvYetW2sD8mquPgjPZ1vq59mHMc1Rr99QPfo2hr1MEJ53d4NifhEBK35GY","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.069"}
+{"level":"info","message":"⚡ TX-3 sent in 1623.68ms: 3AUd7TLWV3oSYSedP4BwjVMkpQP3CihJZRFCTH1eZ4P6JRCSBSATQq5hV2nbfqAg4p7v84VqBEUrU8RRHHGc7zVn","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.094"}
+{"executionTime":3170.9997999999996,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.095","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.095"}
+{"level":"info","message":"✅ Successful transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.096"}
+{"level":"info","message":"📊 Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.096"}
+{"level":"info","message":"⏱️ Total execution time: 3171.00ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.096"}
+{"level":"info","message":"🚀 Average send time: 1357.85ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.096"}
+{"level":"info","message":"🎲 Sent on slot 408534247 with maximum precision!","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.097"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:47.097"}
+{"blockHeight":408534260,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:53:50.028","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:50.029"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:50.029"}
+{"level":"info","message":"- Block height: 408534260","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:50.030"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:50.030"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:53:50.031"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:54:41.951"}
+{"level":"info","message":"Running small batch test with 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:10.811"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:10.814"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:10.815"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:10.817"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:10.818"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.476"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.478"}
+{"level":"info","message":"Initialized 5 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.479"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.481"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.483"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.485"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.486"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.487"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.489"}
+{"level":"info","message":"Creating connection pool with 3 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.490"}
+{"level":"info","message":"Connection pool created with 3 connections using main Solana devnet RPC","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.494"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:15.496"}
+{"level":"info","message":"Average network latency: 429ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:18.161"}
+{"level":"info","message":"Current slot: 408534493","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:18.611"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:18.611"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:18.611"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:18.612"}
+{"level":"info","message":"Block monitor initialized at slot 408534494","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.044"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.046"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.046"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.049"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.051"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.052"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.061"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.062"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.063"}
+{"level":"info","message":"Target slot: 408534496","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.508"}
+{"level":"info","message":"Execution time: 2025-09-17T21:55:19.908Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.510"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.512"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:55:19.908Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.513"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.515"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:19.516"}
+{"level":"info","message":"🎯 ULTRA-FAST: Targeting single slot 408534497 with maximum precision...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:20.141"}
+{"level":"info","message":"⏰ Waiting for slot 408534497 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:20.141"}
+{"level":"info","message":"Waiting for slot 408534497 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:20.142"}
+{"level":"info","message":"🎯 Got fresh blockhash: BM1bCUcuTghfj977DsraKDiAoVuS6DrTtPDKigzX737p","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:20.944"}
+{"level":"info","message":"🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:21.072"}
+{"level":"info","message":"⚡ TX-1 sent in 427.60ms: 44sj6rTC8kuATCGfJiP4Unk1JREmuefNQfZAijgsppG58QQtCYDWtpB2qtCCzwiCxesZGiUdY9YWhHV4e3FgcUaM","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:21.500"}
+{"level":"info","message":"⚡ TX-3 sent in 1598.18ms: 4xweKpteGHMVLVBZgPpG5ik3AkyMA71p7rX1jFZeFx9ijiBH9Mx2RSmh3t3eYaoFy7Bqgs6SKzYLKNm663NTtAcR","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:22.670"}
+{"level":"info","message":"⚡ TX-4 sent in 1629.24ms: 3kmtfPsmCTnS8RjwBPUHazdLjPevy4QaRyq8QuGtPqonVaqs49q8rPhhTdhrAepR4caQRacnpH5DVv7QecfUCqkT","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:22.701"}
+{"level":"info","message":"⚡ TX-2 sent in 3021.95ms: 4UntxfNJ2Gr1D7SnaoUkBUHwu7XjxYYiPrDcVFH6fgGJHY7DBiEqjopkDtvbMUvU3BGM5DwfkLt4nDeBCBkaQL4e","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.094"}
+{"level":"info","message":"⚡ TX-5 sent in 3093.89ms: 56YadQ7jPNrj1KzGvBMSkbH6k9x9bPbmcSSB2SYnD4MWhecLmPRdwE7FspFHVw4QKTmiuxrNJoGDQFymxUj188Qx","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.166"}
+{"executionTime":4650.336099999999,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.167","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.167"}
+{"level":"info","message":"✅ Successful transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.167"}
+{"level":"info","message":"📊 Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.168"}
+{"level":"info","message":"⏱️ Total execution time: 4650.34ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.168"}
+{"level":"info","message":"🚀 Average send time: 1954.17ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.168"}
+{"level":"info","message":"🎲 Sent on slot 408534497 with maximum precision!","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.169"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:24.169"}
+{"blockHeight":408534516,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:55:29.371","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:29.372"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:29.373"}
+{"level":"info","message":"- Block height: 408534516","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:29.374"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:29.375"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:29.375"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:33.351"}
+{"level":"info","message":"Running small batch test with 100 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:54.102"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:54.105"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:54.106"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:54.108"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:54.108"}
+{"level":"info","message":"5/5 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.643"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.643"}
+{"level":"info","message":"Initialized 100 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.643"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.644"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.644"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.644"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.645"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.645"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.645"}
+{"level":"info","message":"Creating connection pool with 3 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.645"}
+{"level":"info","message":"Connection pool created with 3 connections using main Solana devnet RPC","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.646"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:56.647"}
+{"level":"info","message":"Average network latency: 283ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:58.595"}
+{"level":"info","message":"Current slot: 408534597","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:58.889"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:58.890"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:58.890"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:58.890"}
+{"level":"info","message":"Block monitor initialized at slot 408534599","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.547"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.548"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.549"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.552"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.554"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.555"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.564"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.565"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.567"}
+{"level":"info","message":"Target slot: 408534600","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.837"}
+{"level":"info","message":"Execution time: 2025-09-17T21:56:00.237Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.838"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.838"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:56:00.237Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.839"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.840"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:55:59.840"}
+{"level":"info","message":"🎯 ULTRA-FAST: Targeting single slot 408534602 with maximum precision...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:00.280"}
+{"level":"info","message":"⏰ Waiting for slot 408534602 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:00.280"}
+{"level":"info","message":"Waiting for slot 408534602 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:00.281"}
+{"level":"info","message":"🎯 Got fresh blockhash: 791eh8FzSi6WwMHk6L18SVrHMSroHmzakfYJ55P3TXE8","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:00.550"}
+{"level":"info","message":"🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:00.591"}
+{"level":"info","message":"⚡ TX-1 sent in 274.12ms: 2DRFZD98g9XNhaw31Y24MB7WKBWCz4b3vb4g5rfUTe5Mw7FzthwF1st6gBPv4ofDh3fpUcqLcZTdUhJJmZftJZTE","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:00.866"}
+{"level":"info","message":"⚡ TX-2 sent in 1092.95ms: 4qDZrWgjcy69C1W4gpuo5yvofiMLQEwbgdBmHYsZNsMAnAr3bX6AhbhrTE97JUedMdZTQLuB5e87M3ZKEuQqq3Ze","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.684"}
+{"level":"info","message":"⚡ TX-3 sent in 1114.88ms: 2kFmZn7YtjhNTMSnzBVzUHmKza3ryPgfqZbWJ7ksSCtLxG278Y1Frdy6Nm3fC2zZoX41TjPje6MdnpPuoM5Bd1Z2","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.706"}
+{"level":"info","message":"⚡ TX-5 sent in 1137.50ms: 64XLqF6dhse7vFUhBWoR71H6XzB7JUhkaMwQufQEyerBSqGnDj7gnJQwTMpL3sAfixeBYhkVkeKGAckp9BNffk5b","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.729"}
+{"level":"info","message":"⚡ TX-4 sent in 1164.21ms: 5GFGQMJo3eU6A1VZnt17T2skHhTTxp6dxNFGRNrpvvJwpSJ9gkhghEV3FHJe1dGCoyFDCFsY2BnntDXADzA81nwf","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.756"}
+{"executionTime":1916.6598999999997,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.759","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.760"}
+{"level":"info","message":"✅ Successful transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.761"}
+{"level":"info","message":"📊 Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.762"}
+{"level":"info","message":"⏱️ Total execution time: 1916.66ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.763"}
+{"level":"info","message":"🚀 Average send time: 956.73ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.764"}
+{"level":"info","message":"🎲 Sent on slot 408534602 with maximum precision!","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.765"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:01.767"}
+{"blockHeight":408534611,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:56:04.329","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:04.330"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:04.330"}
+{"level":"info","message":"- Block height: 408534611","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:04.330"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:04.331"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:04.331"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:08.191"}
+{"level":"info","message":"Running small batch test with 100 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:34.033"}
+{"level":"info","message":"Initializing Pump.fun Multi-Wallet Bot...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:34.037"}
+{"level":"info","message":"Initializing wallet manager...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:34.038"}
+{"level":"info","message":"Loaded 5 existing wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:34.040"}
+{"level":"info","message":"Generating 95 additional wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:34.040"}
+{"level":"info","message":"Wallets saved to file","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:34.230"}
+{"level":"info","message":"Generated 95 additional wallets. Total: 100","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:34.231"}
+{"level":"info","message":"Verifying wallet balances...","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:34.231"}
+{"level":"warn","message":"Wallet D43FHUaqgnDvm63G7nSDtD4Q6rXS51gwnuCHAXRQKqf4 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:38.438"}
+{"level":"warn","message":"Wallet 5PnWdRieMyUgqTxVP3ihXAVPSrckjkJufw7D3LsMkPkP has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:39.683"}
+{"level":"warn","message":"Wallet 5SshrZuGUm5tSRr6Q5W15KEEgbUt6TcnfjtvydGnBSAk has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:40.109"}
+{"level":"warn","message":"Wallet u9RziSSgL22sxCYzNhyCcVLwgrEtvKJY61wHRyzEiSZ has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:40.537"}
+{"level":"warn","message":"Wallet BELRicvtSihkx2t8rhBumDJMBuzVAPwN3RC5vawC9ppR has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:40.967"}
+{"level":"warn","message":"Wallet 2peonqzNWnn8x25nC1nMEHPqmQWTZPhUsnP5vZNmva8c has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:41.390"}
+{"level":"warn","message":"Wallet FxoQEt5vShqS1MRKbJVPvVhSEKEhirEyuZZtaxN1k1Fc has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:41.813"}
+{"level":"warn","message":"Wallet G9yR2k9CTGB6cwvS8eA2AoRXYmLLXW5ERMnuvHvVNRG7 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:42.236"}
+{"level":"warn","message":"Wallet GXyAppMxAr28Nro9MuhnCMRXhkuttv9Fxtz8TtVe3FVu has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:42.665"}
+{"level":"warn","message":"Wallet Dzf8eCRwY15LDmo33uU6Ax5VpU8hACjimDvoHf1vPVLa has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:43.089"}
+{"level":"warn","message":"Wallet APjCQmqrSNS9BUXGcYni86Mv4MPG2jk4YA15CXfu2UWz has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:43.874"}
+{"level":"warn","message":"Wallet FzarFS1b8HYmRKLDZUVcecjPDcrzigNKwjnGuhj69XFA has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:44.298"}
+{"level":"warn","message":"Wallet 7FM1HvECRbSeZhTyq4WVJ17Vif9KHonpN8uHGL2XGxRH has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:44.725"}
+{"level":"warn","message":"Wallet G2QRFZDQ4oa1FeRHbC3vqCXGda9wWxeLQk8EjEcpSed9 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:45.199"}
+{"level":"warn","message":"Wallet GVvyg3rLyT6j25Pabwh373Z6N6Jvxus32zvxjfEV7jkR has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:45.636"}
+{"level":"warn","message":"Wallet 6QjQvDh6epb37UdrwuuJYRR3GQkYkyWL67D6yXgWcuLM has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:46.063"}
+{"level":"warn","message":"Wallet 7RghHv8o22r6XXywrGZvgjhcqvH5JqCLQ4DWEKKKgfca has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:46.491"}
+{"level":"warn","message":"Wallet CJkfdsufKWqu6Ws1LehyoM3GvcPAVvMeqtvRukuYvoof has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:46.915"}
+{"level":"warn","message":"Wallet BtKXfu6bwZMACmPxXcyJg1GGLq6LRrJJuJorHHFD2KGH has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:47.345"}
+{"level":"warn","message":"Wallet 6qW6Mcdvnw2qLnQUqCYSTMuaaekiPTyce6XB7hVcfRAR has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:47.779"}
+{"level":"warn","message":"Wallet 7tuG8oUSkropVbTbwt3PQ93WCwW29ACAGe9Kh5DTbguP has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:48.206"}
+{"level":"warn","message":"Wallet 68F3MytnDpydLkB8YFv3YdDBvkRJb5ZVPZp18zwvtvyA has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:48.628"}
+{"level":"warn","message":"Wallet 26XgD2TeCjHqGoAqtrgjwB34ei1bNVtNg2NG5mxUXCns has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:49.050"}
+{"level":"warn","message":"Wallet 7JspTWiuZYNPeynWFNhA3b3SegvxhLFNzNnSYUNy6wRf has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:49.474"}
+{"level":"warn","message":"Wallet 4EaK9wTeJHdQY5oBSBgGLcPChgrb5F5iEzrz5GMcEqz5 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:49.900"}
+{"level":"warn","message":"Wallet UtXEwsWmzwJ7eugqrzP1MQ6r5oPGDUDeXZYhdY84YTL has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:50.346"}
+{"level":"warn","message":"Wallet ACWK11eqQfVpCq7y7ws6Aiz5JprccRPF8ksFbxNcnr2v has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:50.797"}
+{"level":"warn","message":"Wallet GhgDigYC1tfDiZrfPjsvuF9wxVJnTA4CgvASYzYduQ7o has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:51.223"}
+{"level":"warn","message":"Wallet BWJ8gWRFg2JfKkYh6JVnoa64sXr5Pe7VH3rJ9GYcfEVG has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:51.649"}
+{"level":"warn","message":"Wallet GZXHzZcgVqdRGCzfvDyMXPUTNjjskv7Kr5FS2CuBRVTf has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:52.074"}
+{"level":"warn","message":"Wallet B1RfF2G2fFjhtthWrNsp1atdniLHU8dy4ET2cYMw2TbK has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:52.495"}
+{"level":"warn","message":"Wallet 2pHvWN4Ct7dbmYGCETi3vRVqf3nwRn6TP9F6Y1vipfyw has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:52.920"}
+{"level":"warn","message":"Wallet 12PcA9kpd8P2twpjDWjqHFbpnoqMbyXKMbLq14o8xsVP has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:53.353"}
+{"level":"warn","message":"Wallet 2gNJCaCjUEX8NGk3hdPM9rZNTzPtTvL1dSQqfn7A63xK has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:53.797"}
+{"level":"warn","message":"Wallet 6uZtbGHYQw7VDEGAhFBF1JQaZE6Nc5emREyKsaYVedqe has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:54.220"}
+{"level":"warn","message":"Wallet HrRt96eH6LPvpRHH9aJLn6twsvVaARFBSMuaweGfvqAq has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:54.643"}
+{"level":"warn","message":"Wallet J1Ad4K8KEs4kEyPC2fdjL8uN8n1LEbccz1jpKZ3Niaif has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:55.069"}
+{"level":"warn","message":"Wallet EykYqj6XNG8PZdrTgUPUiJV5ZUBFEs548AzyjQeVsUxu has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:55.496"}
+{"level":"warn","message":"Wallet 97N8mTB9TAPs6uen93b3SBEvVFhRGohjpEkWNvSMZx65 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:55.918"}
+{"level":"warn","message":"Wallet 6vsangDBxMt6ez9SkQn6AGXKppWRL5d7329LJuAa2ZBb has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:56.341"}
+{"level":"warn","message":"Wallet HKaNx5cYZtpaVsr182zfEQvVoRs3wMSM4SzDy5nq1uTq has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:56.768"}
+{"level":"warn","message":"Wallet FcjtDefesMdfhMFfy8xYiDSqa7tBkKZ8ggsb2Csj7szN has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:57.198"}
+{"level":"warn","message":"Wallet 5fsEJF2P8PZRTPWJSnqCWUFAScKFE9EGTKHuher1sLgP has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:57.626"}
+{"level":"warn","message":"Wallet GMuAh6LLx3DEtpFk6YhLbhBeFhgdRsX2NFyxoG4wzcEQ has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:58.052"}
+{"level":"warn","message":"Wallet ASWySSJfT3j6ELJDm1nfPz96eYuN4fqK9tXLGS4QFEWt has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:58.489"}
+{"level":"warn","message":"Wallet CotFdPaLWKCe9ZkjKe76RJbstqSbueenVhWXcxyEp6vK has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:58.923"}
+{"level":"warn","message":"Wallet 4LX99wgWyBcmbn5QHYM1DdtBMHXDBcrrphpyd3kyFZfM has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:59.351"}
+{"level":"warn","message":"Wallet 8nUw7FbMCJRYoex8TfhiCB6w9LdrmsmebnqodvZXBxPp has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:56:59.778"}
+{"level":"warn","message":"Wallet FH5yrF1aRm3pvEGbC47ZovHqAk4AiysfwSCWhsHUwUpV has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:00.204"}
+{"level":"warn","message":"Wallet BXVuf3CcEQcJ4aKjnRVukZk8Kv5pTPhcEwB2LjAegiaH has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:00.631"}
+{"level":"warn","message":"Wallet HDNRXFxpryoQsCpzp68Rb9XTYtqpB4SgKUX5bsRLE6bJ has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:01.056"}
+{"level":"warn","message":"Wallet GHRi3Jgu39Z8XuU7tvn62Kar1AYDyHbptBfC3i1uzJh2 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:01.480"}
+{"level":"warn","message":"Wallet HKHYd5Bi4zRgQz7QX1tdBKEqJyCzEt9SWa48xtUTko79 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:01.908"}
+{"level":"warn","message":"Wallet GHcswDP1tzKRNwGodpi3Gi5VUcSjg98sZxHG8d2tUZ7c has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:02.337"}
+{"level":"warn","message":"Wallet 32VD6fhvvtS2t3CE6Y3wFN3y87QuSssgAand4DgJgEBH has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:02.795"}
+{"level":"warn","message":"Wallet ANQ2rnFswvUqM7EG8uF23tAtu91HWuVa2X1Hn6GR6q7i has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:03.224"}
+{"level":"warn","message":"Wallet FJGBpMvGYdDa7fNELs8PV89TeRsFea8tyTvQFLsPjjHJ has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:03.648"}
+{"level":"warn","message":"Wallet GoJVaiq3MtUXsV8EVpMKT3ziJh2GJF9XPm8e5F8cVZRu has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:04.073"}
+{"level":"warn","message":"Wallet BNBp7EBHu4Xnmpokghc212A4iBRztUUtvi6GJoG92Qqx has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:04.498"}
+{"level":"warn","message":"Wallet FkVPtnacT2oyCRzVsLHaEeqAULRwU5aonnnNw7AZACfz has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:04.921"}
+{"level":"warn","message":"Wallet 4YabJxiBfvSTQ4fqpnXtKKHDJhFHcdT65m6uEPeC2xo9 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:05.344"}
+{"level":"warn","message":"Wallet F8D5vfmcecXAyJ22RymwV7Cp6Kk3jneGhT4Zd1zt1CLk has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:05.770"}
+{"level":"warn","message":"Wallet 4oe2Cv4GCGs5xUtAjiLbnR3vWRZtMgmhrhjzGLqa5DY8 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:06.203"}
+{"level":"warn","message":"Wallet 7j842gMhKQu9cDZ1cvftznavRQJxfvXwPPZaq74Z9DTR has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:06.661"}
+{"level":"warn","message":"Wallet 7vBwGfVqhJgnVji467whYVPdrBnkHs1jiyDCdCxWagT8 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:07.086"}
+{"level":"warn","message":"Wallet 4GDzUEfGkYn6cwXmb2SYrK5pyqWAkwQZcWe8hi6Fos5U has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:07.516"}
+{"level":"warn","message":"Wallet 5XA6PyECLzULATq8abNaW7grZmpEP9CdPUwoaG7cp1Sa has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:07.948"}
+{"level":"warn","message":"Wallet AHL6nWDAAUm1rP2WAxFWLCLEPyK86KLWi5o7RZAYSWgH has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:08.378"}
+{"level":"warn","message":"Wallet CoirRkCpXS62KX9ERju2JQ9R6cf9cVXLSRV1tW5SsJhb has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:09.318"}
+{"level":"warn","message":"Wallet C1dZsTdG4MSJjvnL9gsT4oT4iNysTuLdS4kLupdmKJXc has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:09.752"}
+{"level":"warn","message":"Wallet 8wtFVM9w6kUY3QMPdhp589V3ZLnundnb6jo39ES3rdVn has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:10.177"}
+{"level":"warn","message":"Wallet 5qT6S7an42D3zUvpFxibT88WYhMDdFbpS4ds7M4JTEPd has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:10.599"}
+{"level":"warn","message":"Wallet CHjSiMciRNvNVBxsPAq2Mj9axXSmv88nf1BtFsom3JL1 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:11.025"}
+{"level":"warn","message":"Wallet 3BmyR4vKgmwxammCZyFEED73fqpjmXzUtZ7JXAT6eWm6 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:11.455"}
+{"level":"warn","message":"Wallet 6aF9HoyWbneZW7xb2jHMkW49Y5cYrTcGwQzWVbKnk9Bk has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:12.382"}
+{"level":"warn","message":"Wallet 9Ajdb54R4TCwdMBffTAuD96oDUkeVJ5xbcXAgDUfpwbz has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:12.804"}
+{"level":"warn","message":"Wallet DiPg8dnynuucxRBdUe5VaSbiJ9YpUCM1BjJz1C6waiFm has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:13.248"}
+{"level":"warn","message":"Wallet 7huNtWPHipwvr8oLku6kZq3n4zQwVACsJFJtYg1NDg36 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:13.754"}
+{"level":"warn","message":"Wallet ETudpYvTuHYmYWRcZwYPwWQeZAypvg2Q1j5jmwMEPBw1 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:14.203"}
+{"level":"warn","message":"Wallet 4Jm5sKrAt5dLiBYzjYtyKJf1XXPQEzpvzkPaU3k4Ua7p has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:14.636"}
+{"level":"warn","message":"Wallet 8vxU3JQW9SJ4tFEG6Q2QjPH1i72sGu5Q4gyer6nesMpT has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:15.063"}
+{"level":"warn","message":"Wallet FBdRKDF4nYug4WLjr8RJgC38n4g82DKu5WUzqKzPtX7B has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:15.485"}
+{"level":"warn","message":"Wallet CdoyfeRp1ZG1eCnJfvGwEkmxwNrghbCMR2Suie65F2sG has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:15.922"}
+{"level":"warn","message":"Wallet EvJZ8PxKuNbVYtBfJoLoCujBoLNfju86uMja69mjLiUi has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:16.345"}
+{"level":"warn","message":"Wallet 6vqeKykwM4yy5a3GnUdbwN3QyPagGvaeeWSL3oK2khFU has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:16.767"}
+{"level":"warn","message":"Wallet GLgUUa7dEZQ7rvyKYWtEnyMFevjTC4Y4ubtGrX4Gr3RN has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:17.192"}
+{"level":"warn","message":"Wallet 2C3TPqKC7D4yMiAqN7LCGuanbBxHH5KAAzbbt88P8vC3 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:17.644"}
+{"level":"warn","message":"Wallet FwFvj5Weesii6gBGSpSdGz79CboL5wdEN4Sm7RRpRwGW has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:18.068"}
+{"level":"warn","message":"Wallet 9TPykwNWRmtFjSPoRXLnGjkiX1taLfH8nf3Kb3bq9y2a has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:18.511"}
+{"level":"warn","message":"Wallet GhkTsdgwFDB9z9v4pmmarSMhcnuP8HX2LMw2nSZMuJUb has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:18.941"}
+{"level":"warn","message":"Wallet 8nfEWCaRZQQbJsz612YTaJvJ1huz7ZmwK5BZoo66y42d has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:19.364"}
+{"level":"warn","message":"Wallet 6mFS84HCc2M2YyEEmH6VYvS1D7REppvFXPHvKfuiCAFu has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:19.790"}
+{"level":"warn","message":"Wallet 8mw9SdCrT9iE8HJhxgMxaLaHLwz82ckt8douNueCnFUU has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:20.217"}
+{"level":"warn","message":"Wallet HYfZCFSiy5ubV3w5v9g8PE12PaKhDgV45juNJPTFSV27 has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:20.642"}
+{"level":"warn","message":"Wallet BeLfNLFNTbMgW6owrd9HSMkYmGghVs9RARmE4qTfocyE has insufficient balance: 0 SOL (required: 0.011 SOL)","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.099"}
+{"level":"info","message":"5/100 wallets are ready for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.100"}
+{"level":"info","message":"Wallet manager initialized successfully","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.100"}
+{"level":"info","message":"Initialized 100 wallets","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.100"}
+{"level":"info","message":"Initializing transaction builder...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.101"}
+{"level":"info","message":"Pump.fun Program ID: 6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.101"}
+{"level":"info","message":"Purchase Amount: 0.01 SOL","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.102"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.102"}
+{"level":"info","message":"Transaction builder initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.102"}
+{"level":"info","message":"Initializing synchronization engine...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.103"}
+{"level":"info","message":"Creating connection pool with 3 connections...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.103"}
+{"level":"info","message":"Connection pool created with 3 connections using main Solana devnet RPC","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.104"}
+{"level":"info","message":"Measuring network latency...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:21.104"}
+{"level":"info","message":"Average network latency: 432ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:23.792"}
+{"level":"info","message":"Current slot: 408534819","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.252"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.252"}
+{"level":"info","message":"Synchronization engine initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.253"}
+{"level":"info","message":"Initializing block monitor...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.253"}
+{"level":"info","message":"Block monitor initialized at slot 408534820","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.680"}
+{"level":"info","message":"Block monitor initialized","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.681"}
+{"level":"info","message":"Bot initialization complete","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.682"}
+{"level":"info","message":"Starting pump.fun multi-wallet execution...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.684"}
+{"level":"info","message":"Using 5 ready wallets for execution","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.685"}
+{"level":"info","message":"Preparing transactions for 5 wallets...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.686"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.691"}
+{"level":"info","message":"Prepared 5 transactions","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.692"}
+{"level":"info","message":"Calculating optimal execution timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:24.693"}
+{"level":"info","message":"Target slot: 408534822","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.116"}
+{"level":"info","message":"Execution time: 2025-09-17T21:57:25.516Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.116"}
+{"level":"info","message":"Time until execution: 400ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.116"}
+{"level":"info","message":"Scheduled execution for: 2025-09-17T21:57:25.516Z","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.117"}
+{"level":"info","message":"Executing 5 transactions with ULTRA-FAST timing...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.117"}
+{"level":"info","message":"Pre-signing all transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.118"}
+{"level":"info","message":"🎯 ULTRA-FAST: Targeting single slot 408534823 with maximum precision...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.576"}
+{"level":"info","message":"⏰ Waiting for slot 408534823 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.576"}
+{"level":"info","message":"Waiting for slot 408534823 edge...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:25.576"}
+{"level":"info","message":"🎯 Got fresh blockhash: HsNCPsqFEcsPPcpH4MZotrNBtXhsjiYoFECp97Z1rncC","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:26.002"}
+{"level":"info","message":"🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:26.156"}
+{"level":"info","message":"⚡ TX-1 sent in 424.68ms: 3WL7qBk5FFcj8Qb6uPmkuFpSP1y5CbyeQZYCh8C1PSRhMoHPs7vXzjpvQDgmbd68xtBKmp8ieTkdGa5NnycFKtbL","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:26.581"}
+{"level":"info","message":"⚡ TX-4 sent in 1522.73ms: Fj35y9uSMHcjNTDvahbHbNbAqU3od4ANzCgKnfHiBQCsDZg1J1SMcGRp1twvP4ku2bruKWqD7JHEjtgfnLqtj14","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.679"}
+{"level":"info","message":"⚡ TX-5 sent in 1552.61ms: 4YLuDqdkqxuj99u1CiwgcAmSQY1EmNpNmme16YbzrH9Eg5NHmkCfKjUAdHBRVMgjLwaNHAgGFWop8nHmc6EJruvQ","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.708"}
+{"level":"info","message":"⚡ TX-3 sent in 1562.65ms: BdqpFHVQMTG9dP9ZN5dpbJQeFjPYeZNrUwRcwYLgP5RHdid9W6uTtY2CCS4GC6qzw2Cqcdcp919o4M8E9xgHNFT","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.719"}
+{"level":"info","message":"⚡ TX-2 sent in 1592.80ms: 2m3gAje2YSDN9KSGoCq19hu8auRDxDVwGUS6Tt8jWrBMF8VqrwdsTmXAyJdvLcoBjbfyPbrAwxmQPgoxFf56NVGY","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.749"}
+{"executionTime":2631.4358000000066,"level":"info","message":"Synchronization executed","precision":1,"service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.749","walletCount":5}
+{"level":"info","message":"🎯 ULTRA-FAST EXECUTION COMPLETED!","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.750"}
+{"level":"info","message":"✅ Successful transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.750"}
+{"level":"info","message":"📊 Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.750"}
+{"level":"info","message":"⏱️ Total execution time: 2631.44ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.750"}
+{"level":"info","message":"🚀 Average send time: 1331.09ms","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.751"}
+{"level":"info","message":"🎲 Sent on slot 408534823 with maximum precision!","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.751"}
+{"level":"info","message":"Verifying block inclusion for 5 transactions...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:27.751"}
+{"blockHeight":408534834,"level":"info","message":"Block inclusion verified","service":"pump-fun-bot","successRate":100,"timestamp":"2025-09-18 00:57:31.473","txCount":5}
+{"level":"info","message":"Verification complete:","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:31.474"}
+{"level":"info","message":"- All in same block: false","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:31.475"}
+{"level":"info","message":"- Block height: 408534834","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:31.477"}
+{"level":"info","message":"- Confirmed transactions: 5/5","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:31.478"}
+{"level":"info","message":"- Success rate: 100.00%","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:31.479"}
+{"level":"info","message":"Received SIGINT, shutting down gracefully...","service":"pump-fun-bot","timestamp":"2025-09-18 00:57:54.823"}
