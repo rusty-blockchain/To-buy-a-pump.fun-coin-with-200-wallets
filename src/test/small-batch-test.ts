@@ -1,13 +1,8 @@
-#!/usr/bin/env node
 
 import { PumpFunMultiWalletBot } from '../index';
 import { config } from '../utils/config';
 import { logger } from '../utils/logger';
 
-/**
- * Small batch test runner for the pump.fun multi-wallet bot
- * Tests with 5-10 wallets before full scale execution
- */
 class SmallBatchTest {
   private bot: PumpFunMultiWalletBot;
   private testWalletCount: number;
@@ -15,7 +10,7 @@ class SmallBatchTest {
   constructor() {
     this.bot = new PumpFunMultiWalletBot();
     this.testWalletCount = 5; // Start with 5 wallets
-  }
+  }   
 
   setTestWalletCount(count: number) {
     if (Number.isFinite(count) && count > 0) {
@@ -23,22 +18,17 @@ class SmallBatchTest {
     }
   }
 
-  /**
-   * Run small batch test
-   */
   async runTest(): Promise<void> {
     try {
       console.log('\n' + '='.repeat(60));
       console.log('🧪 SMALL BATCH TEST - PUMP.FUN MULTI-WALLET BOT');
       console.log('='.repeat(60));
       
-      // Override wallet count for testing
       const originalCount = config.wallet.count;
       config.wallet.count = this.testWalletCount;
       
       logger.info(`Running small batch test with ${this.testWalletCount} wallets`);
       
-      // Initialize bot
       console.log('\n📋 Step 1: Initializing bot...');
       const initialized = await this.bot.initialize();
       
@@ -48,13 +38,11 @@ class SmallBatchTest {
       
       console.log('✅ Bot initialized successfully');
       
-      // Run execution
       console.log('\n🚀 Step 2: Executing transactions...');
       await this.bot.execute();
       
       console.log('\n✅ Small batch test completed successfully!');
       
-      // Restore original count
       config.wallet.count = originalCount;
       
     } catch (error) {
@@ -64,9 +52,6 @@ class SmallBatchTest {
     }
   }
 
-  /**
-   * Run progressive test (5, 10, 25 wallets)
-   */
   async runProgressiveTest(): Promise<void> {
     const testSizes = [5, 10, 25];
     
@@ -85,14 +70,10 @@ class SmallBatchTest {
     console.log('\n🎉 All progressive tests passed! Ready for full scale execution.');
   }
 
-  /**
-   * Run wallet generation test
-   */
   async testWalletGeneration(): Promise<void> {
     try {
       console.log('\n🔑 Testing wallet generation...');
       
-      // Override wallet count
       const originalCount = config.wallet.count;
       config.wallet.count = 10;
       
@@ -104,7 +85,6 @@ class SmallBatchTest {
         throw new Error('Wallet generation failed');
       }
       
-      // Restore original count
       config.wallet.count = originalCount;
       
     } catch (error) {
@@ -113,14 +93,10 @@ class SmallBatchTest {
     }
   }
 
-  /**
-   * Run transaction building test
-   */
   async testTransactionBuilding(): Promise<void> {
     try {
       console.log('\n🔨 Testing transaction building...');
       
-      // Override wallet count
       const originalCount = config.wallet.count;
       config.wallet.count = 3;
       
@@ -132,7 +108,6 @@ class SmallBatchTest {
         throw new Error('Transaction building failed');
       }
       
-      // Restore original count
       config.wallet.count = originalCount;
       
     } catch (error) {
@@ -141,9 +116,6 @@ class SmallBatchTest {
     }
   }
 
-  /**
-   * Run all component tests
-   */
   async runAllTests(): Promise<void> {
     try {
       console.log('\n🧪 Running all component tests...');
@@ -161,25 +133,21 @@ class SmallBatchTest {
   }
 }
 
-// Main execution
 async function main() {
   const test = new SmallBatchTest();
   
   try {
     const args = process.argv.slice(2);
     
-    // Handle both --count 100 and just 100 formats
     let walletCount = 5; // default
     
     const countIndex = args.indexOf('--count');
     if (countIndex !== -1 && args[countIndex + 1]) {
-      // Format: --count 100
       const parsed = parseInt(args[countIndex + 1], 10);
       if (!Number.isNaN(parsed) && parsed > 0) {
         walletCount = parsed;
       }
     } else if (args.length > 0 && !isNaN(parseInt(args[0], 10))) {
-      // Format: just 100 (npm strips --count)
       const parsed = parseInt(args[0], 10);
       if (parsed > 0) {
         walletCount = parsed;

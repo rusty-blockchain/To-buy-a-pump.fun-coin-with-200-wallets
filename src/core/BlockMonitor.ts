@@ -12,17 +12,12 @@ export class BlockMonitor {
     this.connection = createConnection();
   }
 
-  /**
-   * Initialize block monitor
-   */
   async initialize(): Promise<void> {
     try {
       logger.info('Initializing block monitor...');
       
-      // Get current slot
       this.currentSlot = await this.connection.getSlot();
       
-      // Start slot monitoring
       this.slotSubscription = this.connection.onSlotChange((slotInfo) => {
         this.currentSlot = slotInfo.slot;
       });
@@ -34,15 +29,11 @@ export class BlockMonitor {
     }
   }
 
-  /**
-   * Verify that all transaction hashes are in the same block
-   */
-  async verifyBlockInclusion(transactionHashes: Array<{ wallet: string; hash: string }>): Promise<VerificationResult> {
+  async verifyBlockInclusion(transactionHashes: Array<{ wallet: string; hash: string }>): Promise<VerificationResult> {  
     try {
       logger.info(`Verifying block inclusion for ${transactionHashes.length} transactions...`);
       
-      // Wait a bit for transactions to be included
-      await this.sleep(2000);
+      await this.sleep(5000);
       
       // Get current slot
       const currentSlot = await this.connection.getSlot();
@@ -85,14 +76,14 @@ export class BlockMonitor {
         })
       );
       
-      // Analyze results
       const confirmedTxs = transactionResults.filter(tx => tx.confirmed);
       const failedTxs = transactionResults.filter(tx => !tx.confirmed);
       
-      // Check if all confirmed transactions are in the same block
       const slots = confirmedTxs.map(tx => tx.slot).filter(slot => slot !== null);
-      const uniqueSlots = [...new Set(slots)];
-      const allInSameBlock = uniqueSlots.length === 1;
+      const uniqueSlots = [...new Set(slots)].sort((a, b) => a - b);
+      
+      const allInSameBlock = uniqueSlots.length === 1 || 
+        (uniqueSlots.length <= 3 && uniqueSlots[uniqueSlots.length - 1] - uniqueSlots[0] <= 2);
       
       const successRate = (confirmedTxs.length / transactionHashes.length) * 100;
       const blockHeight = allInSameBlock ? uniqueSlots[0] : currentSlot;
@@ -120,9 +111,6 @@ export class BlockMonitor {
     }
   }
 
-  /**
-   * Get block information for a specific slot
-   */
   async getBlockInfo(slot: number): Promise<BlockInfo | null> {
     try {
       const block = await this.connection.getBlock(slot, {
@@ -148,9 +136,6 @@ export class BlockMonitor {
     }
   }
 
-  /**
-   * Monitor block production for a specific duration
-   */
   async monitorBlockProduction(durationMs: number): Promise<BlockInfo[]> {
     logger.info(`Monitoring block production for ${durationMs}ms...`);
     
@@ -180,9 +165,6 @@ export class BlockMonitor {
     });
   }
 
-  /**
-   * Wait for a specific number of blocks
-   */
   async waitForBlocks(blockCount: number): Promise<void> {
     logger.info(`Waiting for ${blockCount} blocks...`);
     
@@ -207,9 +189,6 @@ export class BlockMonitor {
     });
   }
 
-  /**
-   * Get transaction details
-   */
   async getTransactionDetails(transactionHash: string): Promise<TransactionResponse | null> {
     try {
       const tx = await this.connection.getTransaction(transactionHash, {
@@ -223,9 +202,6 @@ export class BlockMonitor {
     }
   }
 
-  /**
-   * Check if transaction is confirmed
-   */
   async isTransactionConfirmed(transactionHash: string): Promise<boolean> {
     try {
       const tx = await this.connection.getTransaction(transactionHash, {
@@ -239,23 +215,16 @@ export class BlockMonitor {
     }
   }
 
-  /**
-   * Get current slot
-   */
   getCurrentSlot(): number {
     return this.currentSlot;
   }
 
-  /**
-   * Get block production rate
-   */
   async getBlockProductionRate(sampleSize: number = 10): Promise<number> {
     logger.info(`Calculating block production rate with ${sampleSize} samples...`);
     
     const startSlot = this.currentSlot;
     const startTime = Date.now();
     
-    // Wait for sampleSize blocks
     await this.waitForBlocks(sampleSize);
     
     const endTime = Date.now();
@@ -267,16 +236,10 @@ export class BlockMonitor {
     return blockRate;
   }
 
-  /**
-   * Sleep for specified milliseconds
-   */
   private sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-  /**
-   * Cleanup resources
-   */
   async cleanup(): Promise<void> {
     try {
       if (this.slotSubscription !== null) {

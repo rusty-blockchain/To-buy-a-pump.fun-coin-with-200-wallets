@@ -1,21 +1,16 @@
 import dotenv from 'dotenv';
 import { Connection, clusterApiUrl } from '@solana/web3.js';
 
-// Load environment variables
 dotenv.config();
 
 export const config = {
-  // Solana Network Configuration
   network: process.env.SOLANA_NETWORK || 'devnet',
-  rpcUrl: process.env.SOLANA_RPC_URL || clusterApiUrl('devnet'),
+  rpcUrl: process.env.SOLANA_RPC_URL || 'https://api.devnet.solana.com',
   wsUrl: process.env.SOLANA_WS_URL || 'wss://api.devnet.solana.com',
   
-  // Alternative RPC endpoints for failover
   rpcUrls: [
-    process.env.SOLANA_RPC_URL || 'https://api.devnet.solana.com', // Try devnet first
-    process.env.SOLANA_RPC_URL_2 || clusterApiUrl('testnet'),
-    process.env.SOLANA_RPC_URL_3 || 'https://testnet.helius-rpc.com',
-    process.env.SOLANA_RPC_URL_4 || 'https://rpc.ankr.com/solana_testnet'
+    'https://api.devnet.solana.com', 
+    'https://devnet.helius-rpc.com'
   ],
 
   // Pump.fun Configuration

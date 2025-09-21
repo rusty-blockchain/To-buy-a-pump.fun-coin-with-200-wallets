@@ -12,7 +12,7 @@ export class SynchronizationEngine {
   private transactionBuilder: TransactionBuilder;
   private walletManager: WalletManager;
   private currentSlot: number = 0;
-  private slotSubscription: number | null = null;
+  private slotSubscription: number | null = null;   
 
   constructor(walletManager?: WalletManager) {
     this.connection = createConnection();
@@ -27,20 +27,14 @@ export class SynchronizationEngine {
     this.walletManager = walletManager || new WalletManager();
   }
 
-  /**
-   * Initialize synchronization engine
-   */
   async initialize(): Promise<void> {
     try {
       logger.info('Initializing synchronization engine...');
       
-      // Create connection pool for parallel broadcasting
       await this.createConnectionPool();
       
-      // Measure network latency
       await this.measureNetworkLatency();
       
-      // Start slot monitoring
       await this.startSlotMonitoring();
       
       logger.info('Synchronization engine initialized');
@@ -50,23 +44,19 @@ export class SynchronizationEngine {
     }
   }
 
-  /**
-   * Create connection pool for parallel broadcasting
-   */
   private async createConnectionPool(): Promise<void> {
-    const poolSize = 3; // Use only 3 connections to avoid rate limits
+    const poolSize = 2; // Use only 2 connections to avoid rate limits
     logger.info(`Creating connection pool with ${poolSize} connections...`);
     
     this.connectionPool = [];
     
-    // Use only the main Solana devnet RPC (most reliable)
     const rpcUrl = 'https://api.devnet.solana.com';
     
     for (let i = 0; i < poolSize; i++) {
       const connection = new Connection(rpcUrl, {
-        commitment: 'processed',
-        confirmTransactionInitialTimeout: 2000,
-        disableRetryOnRateLimit: true // Disable retries to avoid delays
+        commitment: 'confirmed', // Use confirmed instead of processed for better reliability
+        confirmTransactionInitialTimeout: 5000, // Increased timeout
+        disableRetryOnRateLimit: false // Allow retries for better success rate
       });
       this.connectionPool.push(connection);
     }
@@ -74,9 +64,6 @@ export class SynchronizationEngine {
     logger.info(`Connection pool created with ${this.connectionPool.length} connections using main Solana devnet RPC`);
   }
 
-  /**
-   * Measure network latency
-   */
   private async measureNetworkLatency(): Promise<void> {
     logger.info('Measuring network latency...');
     
@@ -93,7 +80,6 @@ export class SynchronizationEngine {
         logger.warn(`Latency measurement ${i + 1} failed:`, error);
       }
       
-      // Small delay between measurements
       await new Promise(resolve => setTimeout(resolve, 100));
     }
     
@@ -104,16 +90,12 @@ export class SynchronizationEngine {
     }
   }
 
-  /**
-   * Start monitoring slot changes
-   */
   private async startSlotMonitoring(): Promise<void> {
     try {
       this.slotSubscription = this.connection.onSlotChange((slotInfo) => {
         this.currentSlot = slotInfo.slot;
       });
       
-      // Get initial slot
       this.currentSlot = await this.connection.getSlot();
       logger.info(`Current slot: ${this.currentSlot}`);
     } catch (error) {
@@ -122,21 +104,15 @@ export class SynchronizationEngine {
     }
   }
 
-  /**
-   * Calculate optimal execution timing
-   */
   async calculateOptimalTiming(): Promise<number> {
     try {
       logger.info('Calculating optimal execution timing...');
-      
-      // Get current slot
+
       const currentSlot = await this.connection.getSlot();
       
-      // Target the next slot boundary
       const targetSlot = currentSlot + 1;
       const currentTime = Date.now();
       
-      // Aim slightly after the expected next block time with minimal buffer
       const estimatedBlockTime = currentTime + this.syncConfig.blockTime;
       const executionTime = estimatedBlockTime + this.syncConfig.bufferTime;
       
@@ -151,9 +127,6 @@ export class SynchronizationEngine {
     }
   }
 
-  /**
-   * Execute all transactions simultaneously with ULTRA-FAST timing
-   */
   async executeSimultaneously(
     transactions: any[],
     executionTime: number
@@ -176,21 +149,18 @@ export class SynchronizationEngine {
         })
       );
       
-      // ULTRA-FAST: Single slot with maximum precision
-      const startSlot = await this.connection.getSlot();
-      const targetSlot = startSlot + 1;
+      const currentSlot = await this.connection.getSlot();
+      const targetSlot = currentSlot + 2; // Target 2 slots ahead for better timing
       
-      logger.info(`🎯 ULTRA-FAST: Targeting single slot ${targetSlot} with maximum precision...`);
+      logger.info(`🎯 ULTRA-FAST: Targeting slot ${targetSlot} for maximum same-block inclusion...`);
       
-      // Wait for the exact slot edge
-      logger.info(`⏰ Waiting for slot ${targetSlot} edge...`);
+      logger.info(`⏰ Waiting for slot ${targetSlot} edge with microsecond precision...`);
       await this.waitForSlotEdge(targetSlot);
       
-      // Get fresh blockhash at the exact slot edge
       const { blockhash } = await this.connection.getLatestBlockhash();
-      logger.info(`🎯 Got fresh blockhash: ${blockhash}`);
+      logger.info(`🎯 Got fresh blockhash: ${blockhash} for slot ${targetSlot}`);
       
-      // Update all transactions with fresh blockhash and re-sign quickly
+      logger.info('🔄 Updating all transactions with fresh blockhash...');
       const finalTransactions = await Promise.all(
         preSignedTransactions.map(async (tx, index) => {
           const updatedTx = await this.transactionBuilder.updateTransactionBlockhash(tx, blockhash);
@@ -199,81 +169,72 @@ export class SynchronizationEngine {
         })
       );
       
-      // Serialize all transactions
+      logger.info(`✅ All ${finalTransactions.length} transactions updated and signed`);
+      
       const serializedTxs = finalTransactions.map(t => t.serialize());
       
-      // Fire all transactions simultaneously using connection pool
       const sendStartTime = performance.now();
       logger.info('🚀 FIRING ALL TRANSACTIONS SIMULTANEOUSLY...');
       
-      // Use micro-batching: send in groups of 2 for maximum speed
-      const batchSize = 2;
-      const executionPromises: Promise<any>[] = [];
+      logger.info(`🚀 BURST MODE: FIRING ALL ${serializedTxs.length} TRANSACTIONS IN MICROSECOND BURST...`);
       
-      for (let i = 0; i < serializedTxs.length; i += batchSize) {
-        const batch = serializedTxs.slice(i, i + batchSize);
-        const batchPromises = batch.map((bytes, batchIndex) => {
-          const globalIndex = i + batchIndex;
-          const connection = this.connectionPool[globalIndex % this.connectionPool.length];
-          
-          return connection.sendRawTransaction(bytes, {
-            skipPreflight: true,
-            preflightCommitment: 'processed',
-            maxRetries: 0 // No retries for speed
-          })
-          .then(signature => {
-            const sendTime = performance.now() - sendStartTime;
-            logger.info(`⚡ TX-${globalIndex + 1} sent in ${sendTime.toFixed(2)}ms: ${signature}`);
-            return {
-              success: true,
-              signature,
-              wallet: readyWallets[globalIndex]?.publicKey || 'unknown',
-              sendTime
-            };
-          })
-          .catch(error => {
-            const sendTime = performance.now() - sendStartTime;
-            logger.error(`❌ TX-${globalIndex + 1} failed in ${sendTime.toFixed(2)}ms:`, error);
-            return {
-              success: false,
-              signature: null,
-              wallet: readyWallets[globalIndex]?.publicKey || 'unknown',
-              error: error instanceof Error ? error.message : String(error),
-              sendTime
-            };
-          });
+      const executionPromises = serializedTxs.map((bytes, index) => {
+        const connection = this.connectionPool[index % this.connectionPool.length];
+        
+        return () => connection.sendRawTransaction(bytes, {
+          skipPreflight: true,
+          preflightCommitment: 'processed',
+          maxRetries: 0 // No retries for maximum speed
+        })
+        .then(signature => {
+          const sendTime = performance.now() - sendStartTime;
+          logger.info(`⚡ TX-${index + 1} sent in ${sendTime.toFixed(2)}ms: ${signature}`);
+          return {
+            success: true,
+            signature,
+            wallet: readyWallets[index]?.publicKey || 'unknown',
+            sendTime
+          };
+        })
+        .catch(error => {
+          const sendTime = performance.now() - sendStartTime;
+          logger.error(`❌ TX-${index + 1} failed in ${sendTime.toFixed(2)}ms:`, error);
+          return {
+            success: false,
+            signature: null,
+            wallet: readyWallets[index]?.publicKey || 'unknown',
+            error: error instanceof Error ? error.message : String(error),
+            sendTime
+          };
         });
-        
-        executionPromises.push(...batchPromises);
-        
-        // Small delay between batches to avoid overwhelming the RPC
-        if (i + batchSize < serializedTxs.length) {
-          await new Promise(resolve => setTimeout(resolve, 1)); // 1ms delay
-        }
-      }
+      });
       
-      // Wait for all transactions to complete
-      const results = await Promise.all(executionPromises);
+      logger.info('⚡ Executing burst mode with microsecond precision...');
+      const results = await Promise.all(executionPromises.map(promise => 
+        new Promise(resolve => {
+          setImmediate(() => {
+            promise().then(resolve).catch(resolve);
+          });
+        })
+      ));
       
       const endTime = performance.now();
       const executionTimeMs = endTime - startTime;
       
-      // Analyze results
-      const successfulTxs = results.filter(r => r.success);
-      const failedTxs = results.filter(r => !r.success);
+      const successfulTxs = results.filter((r: any) => r.success);
+      const failedTxs = results.filter((r: any) => !r.success);
       const successRate = (successfulTxs.length / results.length) * 100;
       
-      // Calculate average send time
-      const avgSendTime = results.reduce((sum, r) => sum + (r.sendTime || 0), 0) / results.length;
+      const avgSendTime = results.reduce((sum: number, r: any) => sum + (r.sendTime || 0), 0) / results.length;
       
       const executionResult: ExecutionResult = {
         success: successRate > 0,
-        transactionHashes: successfulTxs.map(r => ({ wallet: r.wallet, hash: r.signature! })),
+        transactionHashes: successfulTxs.map((r: any) => ({ wallet: r.wallet, hash: r.signature! })),
         blockHeight: this.currentSlot,
         blockHash: blockhash,
         executionTime: executionTimeMs,
         successRate,
-        failedWallets: failedTxs.map(r => r.wallet),
+        failedWallets: failedTxs.map((r: any) => r.wallet),
         gasUsed: 0 // Will be calculated later
       };
       
@@ -293,16 +254,10 @@ export class SynchronizationEngine {
     }
   }
 
-  /**
-   * Sleep for specified milliseconds
-   */
   private sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-  /**
-   * High precision sleep using performance.now()
-   */
   private highPrecisionSleep(ms: number): Promise<void> {
     return new Promise(resolve => {
       const start = performance.now();
@@ -317,9 +272,6 @@ export class SynchronizationEngine {
     });
   }
 
-  /**
-   * Wait for specific slot
-   */
   async waitForSlot(targetSlot: number): Promise<void> {
     logger.info(`Waiting for slot ${targetSlot}...`);
     
@@ -341,64 +293,58 @@ export class SynchronizationEngine {
     });
   }
 
-  /**
-   * Wait for slot edge using slot change subscription for perfect timing
-   */
   async waitForSlotEdge(targetSlot: number): Promise<void> {
     logger.info(`Waiting for slot ${targetSlot} edge...`);
     
     return new Promise((resolve, reject) => {
       const timeout = setTimeout(() => {
         reject(new Error(`Timeout waiting for slot ${targetSlot} edge`));
-      }, 10000); // 10 second timeout
+      }, 15000); // 15 second timeout for better reliability
       
-      // Use slot change subscription for immediate response
+      let slotReached = false;
+      
       const slotChangeHandler = (slotInfo: any) => {
-        if (slotInfo.slot >= targetSlot) {
+        this.currentSlot = slotInfo.slot;
+        
+        if (slotInfo.slot >= targetSlot && !slotReached) {
+          slotReached = true;
           clearTimeout(timeout);
-          // Remove the listener
           this.connection.removeSlotChangeListener(subscriptionId);
-          resolve();
+          
+          setTimeout(() => {
+            resolve();
+          }, 100); // 100ms delay to ensure slot edge timing
         }
       };
       
-      // Add slot change listener
       const subscriptionId = this.connection.onSlotChange(slotChangeHandler);
       
-      // Also check current slot in case we're already past the target
-      if (this.currentSlot >= targetSlot) {
+      if (this.currentSlot >= targetSlot && !slotReached) {
+        slotReached = true;
         clearTimeout(timeout);
         this.connection.removeSlotChangeListener(subscriptionId);
-        resolve();
+        setTimeout(() => {
+          resolve();
+        }, 100);
       }
     });
   }
 
-  /**
-   * Get current slot
-   */
   getCurrentSlot(): number {
     return this.currentSlot;
   }
 
-  /**
-   * Get synchronization configuration
-   */
   getSyncConfig(): SynchronizationConfig {
     return this.syncConfig;
   }
 
-  /**
-   * Update synchronization configuration
-   */
+
   updateSyncConfig(newConfig: Partial<SynchronizationConfig>): void {
     this.syncConfig = { ...this.syncConfig, ...newConfig };
     logger.info('Synchronization configuration updated:', this.syncConfig);
   }
 
-  /**
-   * Cleanup resources
-   */
+
   async cleanup(): Promise<void> {
     try {
       if (this.slotSubscription !== null) {

@@ -7,8 +7,15 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
-    "test": "jest",
-    "test:small": "ts-node src/test/small-batch-test.ts"
+    "test": "ts-node src/test/small-batch-test.ts",
+    "test:small": "ts-node src/test/small-batch-test.ts",
+    "test:jest": "jest",
+    "setup": "node setup-environment.js",
+    "test:impl": "node test-implementation.js",
+    "test:sameblock": "node test-same-block.js",
+    "test:100": "node test-100-wallets.js",
+    "test:airdrop": "node test-100-with-airdrop.js",
+    "validate": "npm run test:impl && npm run build"
   },
   "keywords": ["solana", "pump.fun", "multi-wallet", "blockchain", "trading"],
   "author": "Your Name",

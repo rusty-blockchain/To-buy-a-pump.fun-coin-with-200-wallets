@@ -1,4 +1,3 @@
-// Core interfaces for the pump.fun multi-wallet bot
 
 export interface Wallet {
   publicKey: string;

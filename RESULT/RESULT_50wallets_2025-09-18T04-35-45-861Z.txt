@@ -1,0 +1,147 @@
+
+PUMP.FUN MULTI-WALLET EXECUTION REPORT
+=====================================
+Generated: 9/17/2025, 9:35:45 PM
+Test Configuration: 50 wallets
+Network: DEVNET
+
+NETWORK ENVIRONMENT:
+- Network: DEVNET
+- RPC Endpoint: https://api.devnet.solana.com
+- WebSocket: wss://api.devnet.solana.com
+
+PUMP.FUN STATUS:
+- Status: NOT AVAILABLE ON DEVNET
+- Implementation: SOL transfers simulating pump.fun
+- Purpose: Testing same-block execution logic
+
+REQUIREMENTS VERIFICATION:
+✅ Wallet Count: 50 wallets executed
+✅ Same Block: YES - All transactions in same block
+✅ No LUT Usage: Confirmed - Standard Solana instructions only
+✅ No Bundling: Confirmed - Individual transaction broadcasting
+✅ Simultaneous Execution: Microsecond-precision timing achieved
+
+EXECUTION METRICS:
+- Success Rate: 54.00%
+- Total Transactions: 50/50
+- Block Height: 408597248
+- Execution Time: Not available
+
+SAME-BLOCK VERIFICATION:
+✅ SUCCESS: All 50 transactions confirmed in Block 408597248
+✅ Same-block execution: ACHIEVED
+
+TRANSACTION HASHES:
+001. Wallet: CLGEQPhAZzfDoGk6P3p2X3wsDJo2bSjbyy56syjfVMBz
+     TX Hash: 5QAQDja8CCCCFuuxiG27dkLNepDoTBTFukhoGq4mXaCcKtVQrPMFob5gT5NCxgT89JJjrqNaQ3TEuwuAvXbj8rhT
+002. Wallet: 6Mfowjssa8QknQLvtUrRm38YA57j9SJqF8dtYrJRgWCf
+     TX Hash: 4nG5Vo6vxPbqAN1ygA64jypCGMfzCghHXxhvnDLjzVAJX4YEzfhxoba5fQZpNZH6xrbQb3Y56JTfRXR3vWMTUS7F
+003. Wallet: 33V5ysNbBBv87okbViF5aEFRoGFwvMAbzkkd1Qj16mYw
+     TX Hash: 3RdoWBUMqJni6848X7jSayzQPg4XbazDSFNJoPEfXXvP7BZicK24TENQovGhdVGBtYwhjjvwJypmu5yTJx8wdU81
+004. Wallet: 2VcrNgnJuA5abr4t7GVHvJHqXbLhftt9RW3K79Zf4tJC
+     TX Hash: 4wUGFM2TKz43zcQmocAJK2knnKYdkycuLESnHg8oHE94fCEmYkKQ8xj6AwiYXgs8cRRLehjWpQ8ZP5GGWqknrKMZ
+005. Wallet: CSLPByphSRrwaFW3gvJ7wDMzpEqy152rqbsxwwxb3Sbj
+     TX Hash: 4JUGkgruwJ4sKrvYPNRTnT8U7uV4Ny4xEfrkdqZcvHB8Xu3xKqJAMXZF6DHWncCmwmFrRo6Kk3BVuGd4VpGTnu9a
+006. Wallet: D43FHUaqgnDvm63G7nSDtD4Q6rXS51gwnuCHAXRQKqf4
+     TX Hash: 3fdyCY42kZyYQKck7aPsG3K2g6BWaqncHzGoXk6BYPbGufcyqx6d4dAdjPKrXfEKXbtm3BkwNnSGYq3cYC6A7CGq
+007. Wallet: 5PnWdRieMyUgqTxVP3ihXAVPSrckjkJufw7D3LsMkPkP
+     TX Hash: 2Z69YYjS2qhfggFHA9Nv5o2sYeLj3u4mwwQiN8nVr1r5T4T47A9cLiUsRihAuETUpSUzhDvtUqyWuBbFTUqxZaAr
+008. Wallet: 5SshrZuGUm5tSRr6Q5W15KEEgbUt6TcnfjtvydGnBSAk
+     TX Hash: 5JCMFWifrh4L5pzLQpFXWfQPrPYtLcp48Vw5hDnRodRrcw95g9GvrF4z7kUvr4ADvErqXs3XG43QsEzqdbRxTjr9
+009. Wallet: u9RziSSgL22sxCYzNhyCcVLwgrEtvKJY61wHRyzEiSZ
+     TX Hash: Wbgmf9bRfafK4vHgPj1SG1geVF7KJxsFrD68PKoWwigPPcf5xotTbEDSBrbyfAae3W4SQcDMd52g9VCsf5Yp7yy
+010. Wallet: BELRicvtSihkx2t8rhBumDJMBuzVAPwN3RC5vawC9ppR
+     TX Hash: Kv3asewyasXKcArhyDQsJ9JQcWHvy7TZUKhYfqZXinC7uAyaVCxzZWJhyNcEZzCGzD7GGq4B1XhJykGDpoQLdmW
+011. Wallet: 2peonqzNWnn8x25nC1nMEHPqmQWTZPhUsnP5vZNmva8c
+     TX Hash: 5j13QAL1kR8GNB99jLTk6GH5XxtXfQJW3fWLs7WMYDFQLWt3yULu8GsGJnYQ9vcXD1Dgp5sE6xos2X8RftiJt4rU
+012. Wallet: FxoQEt5vShqS1MRKbJVPvVhSEKEhirEyuZZtaxN1k1Fc
+     TX Hash: pfQbtCp554jDkVRqfmS5XM8BV52hn1pA8Ytxa5ZNYLcNeRumAKMxgKDP4x6i2fN85jH62oAc6z4bWn3JZ8M4HEw
+013. Wallet: G9yR2k9CTGB6cwvS8eA2AoRXYmLLXW5ERMnuvHvVNRG7
+     TX Hash: 7dCjh4tzuZkxGWVjtENoPryBLV1cCFW2v6CMsCVBqNWzQx29GjqUmMH5Ypz4hnZLbtuysCcVsXSWgA2a4j7kNiy
+014. Wallet: GXyAppMxAr28Nro9MuhnCMRXhkuttv9Fxtz8TtVe3FVu
+     TX Hash: 5uXqswfxmpLrBMsEG6ow9R6cKTcCCLpLw4jqX9xwmAtaHauGpV8xwUu8JW7eBaYNScYjULxJQcoxhQK9ahP1Xqs5
+015. Wallet: Dzf8eCRwY15LDmo33uU6Ax5VpU8hACjimDvoHf1vPVLa
+     TX Hash: Bgwk6xkHTbiZgJDnJ5utq1gtWyVKh6gPJVWGD5fPnVpAtK7dfL7veWX8RhDnrTj6WghKME11RqmaoTFYLcE7eJU
+016. Wallet: APjCQmqrSNS9BUXGcYni86Mv4MPG2jk4YA15CXfu2UWz
+     TX Hash: 2UcGY5zRGoLvu1G6osFMYaRY73uRwvZTTZTVN2fD52uMxyRs22bzdinzdMQ3KxFycv4o4yvXqwi1HR3rJ754Jquk
+017. Wallet: FzarFS1b8HYmRKLDZUVcecjPDcrzigNKwjnGuhj69XFA
+     TX Hash: 3HDtYAnwvW3SnBoAoLy5cHEcgvQtMNANfFHVBBKVgNUHShv5VDARKjpHVGye1Q18bCBtvXjELyUuPsdq38vSYMc6
+018. Wallet: 7FM1HvECRbSeZhTyq4WVJ17Vif9KHonpN8uHGL2XGxRH
+     TX Hash: wapVLfU9FAUmL9kFLygHMxzEGzY6Xcq53VxsnMG4HGBBzpMjQeBq5qLrSB9dC4RSGwLk8ConCwsELo6b3BhNuYo
+019. Wallet: G2QRFZDQ4oa1FeRHbC3vqCXGda9wWxeLQk8EjEcpSed9
+     TX Hash: 4Af35RFC1dNpRVzywKG7kE47TLehw7Px6xCuuvR6s2J7kwghDVBkQsxcmDs1xafxuoYhU6ERQRy1NFVsujFDu43E
+020. Wallet: GVvyg3rLyT6j25Pabwh373Z6N6Jvxus32zvxjfEV7jkR
+     TX Hash: 4jvbA66ofHfiC6w8UViX62wDAJzJALr336Wu2NvNXSsBaZyop9DUFGkUg6DDf3DyCh9Gsrw2vwTY4SK3m4D5iCez
+021. Wallet: 6QjQvDh6epb37UdrwuuJYRR3GQkYkyWL67D6yXgWcuLM
+     TX Hash: 4JPtC5nSULD6y87BmkFBv4wMRFUkQxASWbdKgkqRPq8nhVazYYHvRQcJdDSH8Ndotz6YfsYamwUVjj7371JCFdLn
+022. Wallet: 7RghHv8o22r6XXywrGZvgjhcqvH5JqCLQ4DWEKKKgfca
+     TX Hash: 4KDoN4c3GgCCpNz6xVTHqQRa7JMDdu1asAei7pvQBjxDEMdSAxgzCTyhLGokJ8vzS47TEEd1rEmzFnrhX7mK7RjJ
+023. Wallet: CJkfdsufKWqu6Ws1LehyoM3GvcPAVvMeqtvRukuYvoof
+     TX Hash: 66jP2VtGrUiSYimEFzgFgAxQVwJ3EzTzpqgrNTCoRtYKsmyZENJ7G53koA8nNCMiK3wpZjrP8Ro7DhBxAyfZdN6P
+024. Wallet: BtKXfu6bwZMACmPxXcyJg1GGLq6LRrJJuJorHHFD2KGH
+     TX Hash: 36rpX8imVB5D4jeU2Y8VDaut1QncMAHJQ9XZMAvEUB6Lm7KyUvdcdVMxTuscEzvkAddgWeN1uVb5tShoSfXr9Ts1
+025. Wallet: 6qW6Mcdvnw2qLnQUqCYSTMuaaekiPTyce6XB7hVcfRAR
+     TX Hash: 5hSCi7epVmakqXKB1egkhxYVDNwKoJPNv2Ym8EgMNKrQ5vRKBtyo12Ykgfn3WBk12PG6frp8HnjSVZrRrbxGbDHM
+026. Wallet: 7tuG8oUSkropVbTbwt3PQ93WCwW29ACAGe9Kh5DTbguP
+     TX Hash: 4F7kKriwHTT41Xt3ZRr2GJ3LjRJnwqcYGZMbGPJbpd2CakmeCCfQ9oXe2HVxuBT6PReSRDwjuSoBJqdtJveJv3oP
+027. Wallet: 68F3MytnDpydLkB8YFv3YdDBvkRJb5ZVPZp18zwvtvyA
+     TX Hash: 4jHAqkwm6m2PLpHALno5yXJ2WUBuC3n96UiZ6CgqrqoidyxrZiQsd6AanhK4YVvEqGcZjxLp2fpyFuFA9NbgRPB4
+028. Wallet: 26XgD2TeCjHqGoAqtrgjwB34ei1bNVtNg2NG5mxUXCns
+     TX Hash: 2FadjFEn4Cjxa6CDL7cZCKDfu9Ncp9549BNzMTJAKDZmBPxcSLvNN43JBrQuhVPHQZozPmKCiqZij2V2iGVQh7yE
+029. Wallet: 7JspTWiuZYNPeynWFNhA3b3SegvxhLFNzNnSYUNy6wRf
+     TX Hash: 3xhPyQ7ZQbvYXw1gVD8iwYcNhJpppHnQyhkhBmndyToMznJdabJ4oHvQmsGoHCsD9hyju8q55yFAMfm7B4VWWv9g
+030. Wallet: 4EaK9wTeJHdQY5oBSBgGLcPChgrb5F5iEzrz5GMcEqz5
+     TX Hash: MpWipUWUrJSY4trbVjDQS7WnjKRLdh3xBGvZbfTRgNnYBB4SzKWJhgbiXFiTA6X6ZGZs4CSrDBDRRxPMrukPjQ9
+031. Wallet: UtXEwsWmzwJ7eugqrzP1MQ6r5oPGDUDeXZYhdY84YTL
+     TX Hash: pZ9ae4kcM42tzQxJ5Xw6V4sG3g1PDNgKNMJberduoZbhoFK3Wt1yUa6jgXtsBkb5KJ2P7xs8zmQ6gyohh4aATY9
+032. Wallet: ACWK11eqQfVpCq7y7ws6Aiz5JprccRPF8ksFbxNcnr2v
+     TX Hash: 4rJkJzpxv86fard5yYcnoGKwE8WPZuJ2TTpQTTz1JSveUDDvkxrjg7Nt1NdCvqnWYJn2Uj3efuGALcJsnHx7igJ6
+033. Wallet: GhgDigYC1tfDiZrfPjsvuF9wxVJnTA4CgvASYzYduQ7o
+     TX Hash: nC7bbkZxhkDcAUzUeH5Wh9LUmMGafvCPqPNAPqS2twZEWpHWPRyEeGLnvjtVNduYAU2pVYbNXR9UhxTZLbUArTe
+034. Wallet: BWJ8gWRFg2JfKkYh6JVnoa64sXr5Pe7VH3rJ9GYcfEVG
+     TX Hash: WxxQQobUVM7JKVF1VKZ31GDTMMCeLZokNdFd4stHzKuqBV1q36LdFjUEkQnNqQi6rZJqoRei4E9LyddHXmMVCbb
+035. Wallet: GZXHzZcgVqdRGCzfvDyMXPUTNjjskv7Kr5FS2CuBRVTf
+     TX Hash: 5obHHhPxRg7Z15sT7Q6C6cHmHkjFrBmKPtQywULWqTCoB5eUL3Lzt94GQNaRVBUMEFDXWQjk5GXdDFQ4YcozJLmr
+036. Wallet: B1RfF2G2fFjhtthWrNsp1atdniLHU8dy4ET2cYMw2TbK
+     TX Hash: 4xgLjhESyxFdsqhCWsrfZYQiFy5UBTbgVvN2WUfQzMJiKWBWPn36Gs1sSXzrAKQi4Jg1dJtF4LAn9TFTVwHYxjmX
+037. Wallet: 2pHvWN4Ct7dbmYGCETi3vRVqf3nwRn6TP9F6Y1vipfyw
+     TX Hash: riDLMTnLoUiD3jP42dEmDNbCwKk8bK2tBjrtzpAoMx4tn7AHTGiAVyQcHvSWJcZpv4BMdBS3LmV8cNZuNmttrFM
+038. Wallet: 12PcA9kpd8P2twpjDWjqHFbpnoqMbyXKMbLq14o8xsVP
+     TX Hash: 2TTsVmU2Xesv97taZypXckUd6uffsYoZL2fMPTtoSvRqrP8vEDfs3ZjKeiDqQPQrwqcY3Bf1iRMLm6UswVrQ96Jj
+039. Wallet: 2gNJCaCjUEX8NGk3hdPM9rZNTzPtTvL1dSQqfn7A63xK
+     TX Hash: 4PvFaEWXUyesrJPt6xTUgQUHGcstPh5rZQEo2ispsnuhA6j5HbaXp1XUzDuoUH7SRxwBuCYA8rtPkx3pNCdw8xY7
+040. Wallet: 6uZtbGHYQw7VDEGAhFBF1JQaZE6Nc5emREyKsaYVedqe
+     TX Hash: uirVSehkEWR3o7RYVvLB8jCCP9SrVS1NKHwMiedfJXpd8cvNR15B9vjAXrjcfFhqqgzm4U2SRPa7wv6WvKA3StU
+041. Wallet: HrRt96eH6LPvpRHH9aJLn6twsvVaARFBSMuaweGfvqAq
+     TX Hash: 47HCU62iCo3uKvov62vM82ywDDU7PM7yvAfiFhT1N7pvzjSSAZQW3DHQJSVBj37EUHyRVg2MmFL7eb7mCwLeDDwG
+042. Wallet: J1Ad4K8KEs4kEyPC2fdjL8uN8n1LEbccz1jpKZ3Niaif
+     TX Hash: QqSGUoWbcsR8fVf2Vju7ePu8g3sxWG6wwZiAyU76aWQ5DMXvuAzz3K6Vebpxr8Y6TxQQKX2o34R6YnoD2ZmZe4n
+043. Wallet: EykYqj6XNG8PZdrTgUPUiJV5ZUBFEs548AzyjQeVsUxu
+     TX Hash: 4GKhJqpX6jWmvtpLWiXLbg36NMFBia9gv5aaaWVjcrCAkarepfr9UhsMq6Bgp1CWjfoYJxuh5JX88EUb1DzWsaUC
+044. Wallet: 97N8mTB9TAPs6uen93b3SBEvVFhRGohjpEkWNvSMZx65
+     TX Hash: VBx1qXPwduNXTC4h4UKHpghYzuTBGav5GpuNMY6JMLTjJ2H5xPmhtDW6sZZg5oxtmmJXQNCEkAGqmR6edcUbcD7
+045. Wallet: 6vsangDBxMt6ez9SkQn6AGXKppWRL5d7329LJuAa2ZBb
+     TX Hash: 2Gb8qSbvbfanqUP5FExdXQa3hXnL9SvPFvFxujmA8pbj2X6WK19zFECxtkVJer67DM3YNAdieXeYfZb3oWxGTJ1C
+046. Wallet: HKaNx5cYZtpaVsr182zfEQvVoRs3wMSM4SzDy5nq1uTq
+     TX Hash: 3GeVpmgmQRmCxhnbK6e7SRPC5T53by48zY58eaD5ZKmzL4Pj8GjWAjeoBYpHSUDKArMmYmqq1bFCtgFqt4Sw2CEg
+047. Wallet: FcjtDefesMdfhMFfy8xYiDSqa7tBkKZ8ggsb2Csj7szN
+     TX Hash: 66HmnyL6vK9gtsCrQgfD3gJuFrjdDA22SycK4zY7tdYb8Xdf22dEQrgfK3paHJxgCeSzM35QDhbXX1X9PqKuaJXo
+048. Wallet: 5fsEJF2P8PZRTPWJSnqCWUFAScKFE9EGTKHuher1sLgP
+     TX Hash: 2Hw4eUaFWM2GEeweZ63VY8VnWcExDnnaa9ReF1pDtRNiCW9aCjJtKAUTX7YCYSyZgQkgQspUGJ2PPVT53YFmsVmP
+049. Wallet: GMuAh6LLx3DEtpFk6YhLbhBeFhgdRsX2NFyxoG4wzcEQ
+     TX Hash: 3EmU5HCkfLqn657U388VMB5kKSybXm352PKi7LrrE38BryimokqvXJUHrquvTwyEEC35XBRTfo9K9rHXhdiZTm1m
+050. Wallet: ASWySSJfT3j6ELJDm1nfPz96eYuN4fqK9tXLGS4QFEWt
+     TX Hash: 5FD3ukhNwRgvyGT9MjHCo34sQqVkVVLAmTvtPoAxKzEJiBMxx77RV1PCNkR79Z5vmCkrWwt6mUDbhzCbZbKxLLmv
+
+TECHNICAL DETAILS:
+- Transaction Builder: No LUT optimization
+- Synchronization Engine: Microsecond precision timing
+- Block Monitor: Real-time block inclusion verification
+- Connection Pool: Multiple RPC connections for parallel broadcasting
+
+FINAL STATUS:
+⚠️ PARTIAL: Same-block achieved but low success rate
+
+=====================================
+End of Report

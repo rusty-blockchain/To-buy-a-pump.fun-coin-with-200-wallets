@@ -6,6 +6,12 @@ import {
   LAMPORTS_PER_SOL,
   ComputeBudgetProgram
 } from '@solana/web3.js';
+const encodeUint64 = (value: bigint): Uint8Array => {
+  const buffer = new ArrayBuffer(8);
+  const view = new DataView(buffer);
+  view.setBigUint64(0, value, true); // little-endian
+  return new Uint8Array(buffer);
+};
 import { config } from '../utils/config';
 import { logger } from '../utils/logger';
 import { Wallet, TransactionConfig } from '../types/interfaces';
@@ -22,15 +28,12 @@ export class TransactionBuilder {
       tokenAccount: config.pumpFun.tokenAccount,
       purchaseAmount: config.wallet.purchaseAmountSol,
       gasPrice: 0.000005, // 5000 lamports per signature
-      priorityFee: 0.000001, // 1000 lamports priority fee
+      priorityFee: 0.000001, // 1000 lamports priority fee    
       maxRetries: config.execution.maxRetries,
       timeout: config.execution.timeoutMs
     };
   }
 
-  /**
-   * Initialize transaction builder
-   */
   async initialize(): Promise<void> {
     try {
       logger.info('Initializing transaction builder...');
@@ -43,9 +46,6 @@ export class TransactionBuilder {
     }
   }
 
-  /**
-   * Prepare transactions for all wallets
-   */
   async prepareTransactions(wallets: Wallet[]): Promise<Transaction[]> {
     logger.info(`Preparing transactions for ${wallets.length} wallets...`);
     
@@ -65,13 +65,9 @@ export class TransactionBuilder {
     return transactions;
   }
 
-  /**
-   * Create a pump.fun purchase transaction (without LUT)
-   */
   private async createPumpFunTransaction(wallet: Wallet): Promise<Transaction> {
     const transaction = new Transaction();
     
-    // Add compute budget instructions (no LUT optimization)
     transaction.add(
       ComputeBudgetProgram.setComputeUnitLimit({
         units: 200000 // Standard compute units
@@ -88,50 +84,58 @@ export class TransactionBuilder {
     const purchaseInstruction = await this.createPurchaseInstruction(wallet);
     transaction.add(purchaseInstruction);
 
-    // Set recent blockhash (will be updated before sending)
     transaction.recentBlockhash = '11111111111111111111111111111111'; // Placeholder
     
-    // Set fee payer
     transaction.feePayer = new PublicKey(wallet.publicKey);
 
     return transaction;
   }
 
-  /**
-   * Create pump.fun purchase instruction
-   * 
-   * TODO: INTEGRATION REQUIRED
-   * This is a simplified placeholder instruction. For production use, you need to:
-   * 1. Research the actual pump.fun program instruction layout
-   * 2. Include correct accounts: token mint, bonding curve, fee recipients, etc.
-   * 3. Use proper instruction discriminator and data format
-   * 4. Handle program-derived addresses (PDAs) correctly
-   * 5. Test with actual pump.fun contracts on testnet first
-   */
   private async createPurchaseInstruction(wallet: Wallet): Promise<TransactionInstruction> {
-    // TEMPORARY: Use Memo Program for safe on-chain no-op testing.
-    // This avoids program errors while validating end-to-end flow.
-    const memoProgramId = new PublicKey('MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr');
-    const memoText = `pumpfun-placeholder:${wallet.publicKey}`;
-
+ 
+    const tokenProgramId = new PublicKey('TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA');
+    
+    const tokenMint = new PublicKey(wallet.publicKey);
+    
+    const sourceTokenAccount = new PublicKey('11111111111111111111111111111112'); // System program as placeholder
+    
+    const destinationTokenAccount = new PublicKey('11111111111111111111111111111113'); // System program as placeholder
+    
+    const transferAmount = Math.floor(this.transactionConfig.purchaseAmount * LAMPORTS_PER_SOL);
+    
     return new TransactionInstruction({
-      keys: [],
-      programId: memoProgramId,
-      data: Buffer.from(memoText, 'utf8')
+      keys: [
+        {
+          pubkey: sourceTokenAccount,
+          isSigner: false,
+          isWritable: true,
+        },
+        {
+          pubkey: destinationTokenAccount,
+          isSigner: false,
+          isWritable: true,
+        },
+        {
+          pubkey: new PublicKey(wallet.publicKey),
+          isSigner: true,
+          isWritable: false,
+        },
+        {
+          pubkey: tokenMint,
+          isSigner: false,
+          isWritable: false,
+        },
+      ],
+      programId: tokenProgramId,
+      data: Buffer.from([2, 0, 0, 0, ...encodeUint64(BigInt(transferAmount))]), // Transfer instruction
     });
   }
 
-  /**
-   * Update transaction with recent blockhash
-   */
   async updateTransactionBlockhash(transaction: Transaction, recentBlockhash: string): Promise<Transaction> {
     transaction.recentBlockhash = recentBlockhash;
     return transaction;
   }
 
-  /**
-   * Sign transaction with wallet
-   */
   async signTransaction(transaction: Transaction, wallet: Wallet): Promise<Transaction> {
     try {
       const keypair = {
@@ -147,9 +151,6 @@ export class TransactionBuilder {
     }
   }
 
-  /**
-   * Serialize transaction for broadcasting
-   */
   serializeTransaction(transaction: Transaction): string {
     try {
       const serialized = transaction.serialize();
@@ -160,9 +161,6 @@ export class TransactionBuilder {
     }
   }
 
-  /**
-   * Create a test transaction (for testing purposes)
-   */
   async createTestTransaction(wallet: Wallet): Promise<Transaction> {
     const transaction = new Transaction();
     
@@ -193,9 +191,6 @@ export class TransactionBuilder {
     return transaction;
   }
 
-  /**
-   * Validate transaction before sending
-   */
   validateTransaction(transaction: Transaction): boolean {
     try {
       // Check if transaction has required fields
@@ -227,9 +222,6 @@ export class TransactionBuilder {
     }
   }
 
-  /**
-   * Get transaction size in bytes
-   */
   getTransactionSize(transaction: Transaction): number {
     try {
       const serialized = transaction.serialize();
@@ -240,9 +232,6 @@ export class TransactionBuilder {
     }
   }
 
-  /**
-   * Get transaction configuration
-   */
   getTransactionConfig(): TransactionConfig {
     return this.transactionConfig;
   }
