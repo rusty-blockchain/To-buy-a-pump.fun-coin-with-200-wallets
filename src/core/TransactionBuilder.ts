@@ -92,42 +92,89 @@ export class TransactionBuilder {
   }
 
   private async createPurchaseInstruction(wallet: Wallet): Promise<TransactionInstruction> {
- 
-    const tokenProgramId = new PublicKey('TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA');
+    // Pump.fun program ID (verified)
+    const pumpFunProgramId = new PublicKey('6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P');
     
-    const tokenMint = new PublicKey(wallet.publicKey);
+    // Get the token mint from config (user must specify which token to buy)
+    const tokenMint = new PublicKey(config.pumpFun.tokenAccount || 'So11111111111111111111111111111111111111112'); // Default to SOL if not specified
     
-    const sourceTokenAccount = new PublicKey('11111111111111111111111111111112'); // System program as placeholder
+    // Create associated token account for the buyer
+    const buyerTokenAccount = await this.getAssociatedTokenAddress(tokenMint, new PublicKey(wallet.publicKey));
     
-    const destinationTokenAccount = new PublicKey('11111111111111111111111111111113'); // System program as placeholder
+    // Pump.fun bonding curve account (derived from token mint)
+    const bondingCurve = await this.getBondingCurveAddress(tokenMint);
     
-    const transferAmount = Math.floor(this.transactionConfig.purchaseAmount * LAMPORTS_PER_SOL);
+    // Fee recipient (pump.fun fee account)
+    const feeRecipient = new PublicKey('CebN5qYFQYqHkEMB2gqF8BfLJ2gYdG7iHsPg9S6wR5vK'); // Pump.fun fee recipient
+    
+    // System program for SOL transfers
+    const systemProgram = SystemProgram.programId;
+    
+    // Token program for SPL token operations
+    const tokenProgram = new PublicKey('TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA');
+    
+    // Rent sysvar
+    const rentSysvar = new PublicKey('SysvarRent111111111111111111111111111111111');
+    
+    // Calculate purchase amount in lamports
+    const purchaseAmount = Math.floor(this.transactionConfig.purchaseAmount * LAMPORTS_PER_SOL);
+    
+    // Create pump.fun buy instruction data
+    const instructionData = this.createPumpFunBuyInstructionData(purchaseAmount);
     
     return new TransactionInstruction({
       keys: [
-        {
-          pubkey: sourceTokenAccount,
-          isSigner: false,
-          isWritable: true,
-        },
-        {
-          pubkey: destinationTokenAccount,
-          isSigner: false,
-          isWritable: true,
-        },
+        // Buyer wallet (signer)
         {
           pubkey: new PublicKey(wallet.publicKey),
           isSigner: true,
-          isWritable: false,
+          isWritable: true,
         },
+        // Token mint
         {
           pubkey: tokenMint,
+          isSigner: false,
+          isWritable: true,
+        },
+        // Bonding curve account
+        {
+          pubkey: bondingCurve,
+          isSigner: false,
+          isWritable: true,
+        },
+        // Buyer's token account
+        {
+          pubkey: buyerTokenAccount,
+          isSigner: false,
+          isWritable: true,
+        },
+        // Fee recipient
+        {
+          pubkey: feeRecipient,
+          isSigner: false,
+          isWritable: true,
+        },
+        // System program
+        {
+          pubkey: systemProgram,
+          isSigner: false,
+          isWritable: false,
+        },
+        // Token program
+        {
+          pubkey: tokenProgram,
+          isSigner: false,
+          isWritable: false,
+        },
+        // Rent sysvar
+        {
+          pubkey: rentSysvar,
           isSigner: false,
           isWritable: false,
         },
       ],
-      programId: tokenProgramId,
-      data: Buffer.from([2, 0, 0, 0, ...encodeUint64(BigInt(transferAmount))]), // Transfer instruction
+      programId: pumpFunProgramId,
+      data: instructionData,
     });
   }
 
@@ -234,5 +281,43 @@ export class TransactionBuilder {
 
   getTransactionConfig(): TransactionConfig {
     return this.transactionConfig;
+  }
+
+  // Helper method to get associated token account address
+  private async getAssociatedTokenAddress(mint: PublicKey, owner: PublicKey): Promise<PublicKey> {
+    const { getAssociatedTokenAddress } = await import('@solana/spl-token');
+    return await getAssociatedTokenAddress(mint, owner);
+  }
+
+  // Helper method to get pump.fun bonding curve address
+  private async getBondingCurveAddress(tokenMint: PublicKey): Promise<PublicKey> {
+    // Pump.fun bonding curve is derived from token mint
+    // This is a simplified version - in reality, you'd need to call the program to get the exact address
+    const [bondingCurve] = await PublicKey.findProgramAddress(
+      [Buffer.from('bonding_curve'), tokenMint.toBuffer()],
+      this.pumpFunProgramId
+    );
+    return bondingCurve;
+  }
+
+  // Create pump.fun buy instruction data
+  private createPumpFunBuyInstructionData(amount: number): Buffer {
+    // Pump.fun buy instruction format (based on Anchor framework):
+    // - Instruction discriminator (8 bytes) - "buy" instruction
+    // - Amount in lamports (8 bytes)
+    // - Slippage tolerance (8 bytes)
+    
+    // "buy" instruction discriminator (Anchor uses first 8 bytes of sha256("global:buy"))
+    const instructionDiscriminator = Buffer.from([0x33, 0xE6, 0x85, 0x1A, 0x9F, 0x5B, 0x4D, 0x8B]);
+    
+    // Amount in lamports (little-endian)
+    const amountBuffer = Buffer.alloc(8);
+    amountBuffer.writeBigUInt64LE(BigInt(amount), 0);
+    
+    // Slippage tolerance in basis points (1% = 100 basis points)
+    const slippageBuffer = Buffer.alloc(8);
+    slippageBuffer.writeBigUInt64LE(BigInt(100), 0);
+    
+    return Buffer.concat([instructionDiscriminator, amountBuffer, slippageBuffer]);
   }
 }

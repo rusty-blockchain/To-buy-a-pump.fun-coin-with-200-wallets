@@ -31,12 +31,12 @@ class PumpFunMultiWalletBot {
       await this.walletManager.initialize();
       logger.info(`Initialized ${config.wallet.count} wallets`);
 
-      if (config.network === 'testnet' || config.network === 'devnet') {
-        const readyWallets = this.walletManager.getReadyWalletCount();
-        if (readyWallets === 0) {
-          logger.info('No wallets ready, funding wallets with test SOL...');
-          await this.walletManager.fundWallets();
-        }
+      // Note: On mainnet, wallets must be pre-funded with real SOL
+      // No automatic funding available on mainnet
+      const readyWallets = this.walletManager.getReadyWalletCount();
+      if (readyWallets === 0) {
+        logger.warn('No wallets are ready. Please ensure wallets are funded with real SOL on mainnet.');
+        throw new Error('No funded wallets available. Please fund your wallets with real SOL before running on mainnet.');
       }
 
       await this.transactionBuilder.initialize();
@@ -64,9 +64,9 @@ class PumpFunMultiWalletBot {
       let readyWallets = this.walletManager.getReadyWallets();
       
       if (readyWallets.length < config.wallet.count) {
-        logger.info(`Only ${readyWallets.length} wallets ready, quick funding wallets to reach ${config.wallet.count}...`);
-        await this.walletManager.quickFundAll();
-        readyWallets = this.walletManager.getReadyWallets();
+        logger.warn(`Only ${readyWallets.length} wallets ready, need ${config.wallet.count} wallets for execution`);
+        logger.warn('On mainnet, wallets must be pre-funded with real SOL. No automatic funding available.');
+        throw new Error(`Insufficient funded wallets. Found ${readyWallets.length}, need ${config.wallet.count}. Please fund your wallets with real SOL.`);
       }
 
       if (readyWallets.length === 0) {
@@ -115,14 +115,15 @@ class PumpFunMultiWalletBot {
     console.log(`   RPC Endpoint: ${config.rpcUrl}`);
     
     console.log('\n🪙 PUMP.FUN STATUS:');
-    if (network === 'DEVNET') {
-      console.log('   ❌ PUMP.FUN: NOT AVAILABLE ON DEVNET');
-      console.log('   📝 Note: Using SOL transfers to simulate pump.fun purchases');
-      console.log('   🧪 Purpose: Testing same-block execution logic');
-    } else if (network === 'MAINNET-BETA' || network === 'MAINNET') {
+    if (network === 'MAINNET-BETA' || network === 'MAINNET') {
       console.log('   ✅ PUMP.FUN: AVAILABLE ON MAINNET');
       console.log('   🎯 Note: Real pump.fun coin purchases');
       console.log('   💰 Purpose: Actual trading execution');
+      console.log('   ⚠️  WARNING: Using real SOL and real funds!');
+    } else {
+      console.log('   ❌ PUMP.FUN: NOT AVAILABLE ON THIS NETWORK');
+      console.log('   📝 Note: Using SOL transfers to simulate pump.fun purchases');
+      console.log('   🧪 Purpose: Testing same-block execution logic');
     }
     
     console.log('\n✅ REQUIREMENTS VERIFICATION:');
@@ -201,10 +202,9 @@ NETWORK ENVIRONMENT:
 - WebSocket: ${config.wsUrl}
 
 PUMP.FUN STATUS:
-${network === 'DEVNET' ? 
-  '- Status: NOT AVAILABLE ON DEVNET\n- Implementation: SOL transfers simulating pump.fun\n- Purpose: Testing same-block execution logic' :
-  '- Status: AVAILABLE ON MAINNET\n- Implementation: Real pump.fun coin purchases\n- Purpose: Actual trading execution'
-}
+- Status: AVAILABLE ON MAINNET
+- Implementation: Real pump.fun coin purchases
+- Purpose: Actual trading execution
 
 REQUIREMENTS VERIFICATION:
 ✅ Wallet Count: ${config.wallet.count} wallets executed

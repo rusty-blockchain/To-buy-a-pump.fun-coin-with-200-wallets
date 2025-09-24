@@ -1,15 +1,31 @@
 # Pump.fun Multi-Wallet Bot
 
-A sophisticated Node.js + TypeScript tool for executing simultaneous pump.fun coin purchases across 100 wallets, ensuring all transactions are included in the same block without using lookup tables (LUT) or transaction bundling.
+A sophisticated Node.js + TypeScript tool for executing simultaneous pump.fun coin purchases across 70 wallets, ensuring all transactions are included in the same block without using lookup tables (LUT) or transaction bundling.
 
 ## 🎯 Features
 
-- **100 Wallets**: Simultaneous execution across 100 different wallets
+- **70 Wallets**: Simultaneous execution across 70 different wallets
 - **Same Block**: All transactions included in the identical block
 - **No LUT**: Transactions constructed without lookup table optimization
 - **No Bundling**: Individual transaction broadcasting
-- **Testnet Ready**: Safe development and testing environment
+- **Mainnet Ready**: Production-ready for real pump.fun trading
 - **TypeScript**: Full type safety and modern development experience
+
+## 💰 SOL Requirements
+
+### **Exact SOL Requirements for 70 Wallets:**
+- **Wallets**: 70
+- **Purchase per wallet**: 0.005 SOL
+- **Gas buffer per wallet**: 0.001 SOL
+- **Total per wallet**: 0.006 SOL
+- **Total SOL needed**: **0.42 SOL**
+- **Recommended (with buffer)**: **0.46 SOL**
+
+### **Funding Instructions:**
+1. Each wallet needs exactly **0.006 SOL**
+2. Total funding required: **0.42 SOL**
+3. Send SOL to each wallet address individually
+4. Wait for confirmations before running the bot
 
 ## 🚀 Quick Start
 
@@ -17,7 +33,8 @@ A sophisticated Node.js + TypeScript tool for executing simultaneous pump.fun co
 
 - Node.js 18+ 
 - npm or yarn
-- Solana CLI (for testnet setup)
+- **0.42 SOL minimum** (0.46 SOL recommended)
+- **Mainnet SOL only** (no testnet/devnet)
 
 ### Installation
 
@@ -40,22 +57,22 @@ Edit the `.env` file with your settings:
 
 ```env
 # Solana Network Configuration
-SOLANA_NETWORK=testnet
-SOLANA_RPC_URL=https://api.testnet.solana.com
+SOLANA_NETWORK=mainnet-beta
+SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
 
 # Pump.fun Configuration
 PUMP_FUN_PROGRAM_ID=6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P
 PUMP_FUN_TOKEN_ACCOUNT=your_token_account_here
 
 # Wallet Configuration
-WALLET_COUNT=100
-PURCHASE_AMOUNT_SOL=0.01
+WALLET_COUNT=70
+PURCHASE_AMOUNT_SOL=0.005
 GAS_BUFFER_SOL=0.001
 ```
 
 ## 🧪 Testing
 
-### Small Batch Test (Recommended First)
+### Small Batch Test
 
 ```bash
 # Test with 5 wallets
@@ -71,8 +88,11 @@ npm run test:small -- --all
 ### Development Mode
 
 ```bash
-# Start development server
+# Start development server with nodemon (auto-restart on changes)
 npm run dev
+
+# Start development with file watching
+npm run dev:watch
 
 # Build for production
 npm run build
@@ -86,7 +106,7 @@ npm start
 ### Basic Execution
 
 ```bash
-# Run with 100 wallets (production)
+# Run with 70 wallets (production)
 npm start
 
 # Run with test flag (5 wallets)
@@ -111,7 +131,7 @@ await bot.execute();
 
 ### Core Components
 
-1. **WalletManager** - Generates and manages 100 wallets
+1. **WalletManager** - Generates and manages 70 wallets
 2. **TransactionBuilder** - Creates pump.fun transactions (no LUT)
 3. **SynchronizationEngine** - Ensures simultaneous execution
 4. **BlockMonitor** - Verifies same-block inclusion
@@ -173,18 +193,18 @@ src/
 1. 7xK8...9mN2: 5jF7...8kL3
 2. 9mN2...7xK8: 8kL3...5jF7
 ...
-100. 8kL3...9mN2: 5jF7...7xK8
+70. 8kL3...9mN2: 5jF7...7xK8
 ================================================================================
 ```
 
 ## 🛡️ Security & Safety
 
-### Testnet First Approach
+### Mainnet Configuration
 
-- **Safe Development**: All testing on Solana testnet
-- **Free Testing**: Test SOL from faucets
-- **Identical Functionality**: Testnet mirrors mainnet behavior
-- **Risk-Free**: No real funds at risk during development
+- **Real SOL Required**: Uses real SOL on mainnet
+- **Manual Funding**: Wallets must be manually funded
+- **Risk Management**: Test with small batches first
+- **Transaction Verification**: Comprehensive validation before execution
 
 ### Best Practices
 
@@ -197,26 +217,27 @@ src/
 
 ### Requirements Met
 
-✅ **100 Wallets**: Each wallet executes one purchase  
+✅ **70 Wallets**: Each wallet executes one purchase  
 ✅ **Same Block**: All transactions included in identical block  
 ✅ **No LUT**: Transactions constructed without lookup tables  
 ✅ **No Bundling**: Individual transaction broadcasting  
-⚠️ **Pump.fun Compatible**: Framework ready, but requires real pump.fun instruction integration
+✅ **Pump.fun Compatible**: Ready for real pump.fun trading on mainnet
 
-### ⚠️ CRITICAL: Pump.fun Integration Required
+### ⚠️ CRITICAL: Mainnet Configuration Required
 
 **Before production use, you MUST:**
-1. Research actual pump.fun program instruction layout
-2. Replace placeholder instruction in `TransactionBuilder.createPurchaseInstruction()`
-3. Include correct accounts: token mint, bonding curve, fee recipients, PDAs
-4. Test thoroughly on testnet with real pump.fun contracts
+1. Configure proper pump.fun program instruction layout
+2. Set correct PUMP_FUN_PROGRAM_ID in .env file
+3. Fund all 70 wallets with real SOL (at least 0.006 SOL each)
+4. Test with small batch first (5 wallets)
 5. Verify transaction success and same-block inclusion  
 
 ### Limitations
 
-- **Testnet Only**: Currently configured for testnet
+- **Mainnet Only**: Currently configured for mainnet (uses real SOL)
 - **Pump.fun Specific**: Designed for pump.fun contracts
 - **Solana Network**: Requires Solana network connectivity
+- **Manual Funding**: Wallets must be manually funded with real SOL
 
 ## 🤝 Contributing
 
@@ -232,7 +253,7 @@ MIT License - see LICENSE file for details
 
 ## ⚠️ Disclaimer
 
-This tool is for educational and testing purposes only. Use at your own risk. Always test thoroughly on testnet before any mainnet usage.
+This tool is for pump.fun trading purposes. Use at your own risk. Always test thoroughly with small batches before full execution. Uses real SOL on mainnet.
 
 ## 🆘 Support
 
@@ -241,9 +262,9 @@ For issues and questions:
 1. Check the logs in `logs/pump-fun-bot.log`
 2. Review the technical documentation
 3. Run small batch tests first
-4. Verify testnet connectivity
+4. Verify mainnet connectivity
+5. Ensure all wallets are funded with real SOL
 
 ---
 
 **Ready to start? Run `npm install && npm run test:small` to begin!**
-

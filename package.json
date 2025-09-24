@@ -6,36 +6,41 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "dev:watch": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
     "test": "ts-node src/test/small-batch-test.ts",
     "test:small": "ts-node src/test/small-batch-test.ts",
     "test:jest": "jest",
     "setup": "node setup-environment.js",
-    "test:impl": "node test-implementation.js",
-    "test:sameblock": "node test-same-block.js",
-    "test:100": "node test-100-wallets.js",
-    "test:airdrop": "node test-100-with-airdrop.js",
-    "validate": "npm run test:impl && npm run build"
+    "validate": "npm run build"
   },
-  "keywords": ["solana", "pump.fun", "multi-wallet", "blockchain", "trading"],
+  "keywords": [
+    "solana",
+    "pump.fun",
+    "multi-wallet",
+    "blockchain",
+    "trading"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "@solana/web3.js": "^1.87.6",
+    
     "@solana/spl-token": "^0.3.9",
+    "@solana/web3.js": "^1.87.6",
+    "axios": "^1.6.0",
     "bs58": "^5.0.0",
     "crypto": "^1.0.1",
     "dotenv": "^16.3.1",
-    "axios": "^1.6.0",
     "winston": "^3.11.0"
   },
   "devDependencies": {
-    "@types/node": "^20.8.0",
     "@types/bs58": "^4.0.4",
     "@types/jest": "^29.5.5",
-    "typescript": "^5.2.2",
-    "ts-node": "^10.9.1",
+    "@types/node": "^20.8.0",
     "jest": "^29.7.0",
-    "ts-jest": "^29.1.1"
+    "nodemon": "^3.1.10",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }

@@ -161,8 +161,9 @@ export class WalletManager {
   }
 
   async fundWallets(): Promise<void> {
-    if (config.network !== 'testnet' && config.network !== 'devnet') {
-      logger.warn('Funding wallets is only available on testnet/devnet');
+    if (config.network === 'mainnet-beta' || config.network === 'mainnet') {
+      logger.warn('Automatic funding is not available on mainnet. Wallets must be pre-funded with real SOL.');
+      logger.warn('Please manually fund your wallets before running on mainnet.');
       return;
     }
 
@@ -183,8 +184,9 @@ export class WalletManager {
   }
 
   async quickFundAll(): Promise<void> {
-    if (config.network !== 'testnet' && config.network !== 'devnet') {
-      logger.warn('Funding wallets is only available on testnet/devnet');
+    if (config.network === 'mainnet-beta' || config.network === 'mainnet') {
+      logger.warn('Automatic funding is not available on mainnet. Wallets must be pre-funded with real SOL.');
+      logger.warn('Please manually fund your wallets before running on mainnet.');
       return;
     }
 

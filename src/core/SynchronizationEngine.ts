@@ -50,7 +50,7 @@ export class SynchronizationEngine {
     
     this.connectionPool = [];
     
-    const rpcUrl = 'https://api.devnet.solana.com';
+    const rpcUrl = config.rpcUrl;
     
     for (let i = 0; i < poolSize; i++) {
       const connection = new Connection(rpcUrl, {
@@ -61,7 +61,7 @@ export class SynchronizationEngine {
       this.connectionPool.push(connection);
     }
     
-    logger.info(`Connection pool created with ${this.connectionPool.length} connections using main Solana devnet RPC`);
+    logger.info(`Connection pool created with ${this.connectionPool.length} connections using ${config.network} RPC`);
   }
 
   private async measureNetworkLatency(): Promise<void> {

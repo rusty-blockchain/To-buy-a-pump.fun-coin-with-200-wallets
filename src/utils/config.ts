@@ -4,24 +4,24 @@ import { Connection, clusterApiUrl } from '@solana/web3.js';
 dotenv.config();
 
 export const config = {
-  network: process.env.SOLANA_NETWORK || 'devnet',
-  rpcUrl: process.env.SOLANA_RPC_URL || 'https://api.devnet.solana.com',
-  wsUrl: process.env.SOLANA_WS_URL || 'wss://api.devnet.solana.com',
+  network: process.env.SOLANA_NETWORK || 'mainnet-beta',
+  rpcUrl: process.env.SOLANA_RPC_URL || 'https://api.mainnet-beta.solana.com',
+  wsUrl: process.env.SOLANA_WS_URL || 'wss://api.mainnet-beta.solana.com',
   
   rpcUrls: [
-    'https://api.devnet.solana.com', 
-    'https://devnet.helius-rpc.com'
+    'https://api.mainnet-beta.solana.com', 
+    'https://mainnet.helius-rpc.com'
   ],
 
   // Pump.fun Configuration
   pumpFun: {
     programId: process.env.PUMP_FUN_PROGRAM_ID || '6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P',
-    tokenAccount: process.env.PUMP_FUN_TOKEN_ACCOUNT || '',
+    tokenAccount: process.env.PUMP_FUN_TOKEN_ACCOUNT || 'So11111111111111111111111111111111111111112', // Default to SOL
   },
 
   // Wallet Configuration
   wallet: {
-    count: parseInt(process.env.WALLET_COUNT || '100'),
+    count: parseInt(process.env.WALLET_COUNT || '70'),
     purchaseAmountSol: parseFloat(process.env.PURCHASE_AMOUNT_SOL || '0.01'),
     gasBufferSol: parseFloat(process.env.GAS_BUFFER_SOL || '0.001'),
   },
